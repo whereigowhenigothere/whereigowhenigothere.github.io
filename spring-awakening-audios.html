@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		
+		
+		<title>Home</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"> 
+<style>
+body {
+  font-family: "Montserrat", sans-serif;
+line-height: normal;
+letter-spacing: normal;
+}
+
+.sidenav {
+  width: 100px;
+  position: fixed;
+  z-index: 1;
+background:  #a2b1ff ;
+  bottom: 30px;
+  right: 30px;
+  overflow-x: hidden;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #144770;
+  display: block;
+text-align: right;
+}
+
+.sidenav a:hover {
+  color: #ffffff;
+}
+
+.main {
+  margin-left: 140px; /* Same width as the sidebar + left position in px */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+        
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+      font-family: 'Poppins', sans-serif, bold;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 20px;
+  background-color: inherit;
+      font-family: 'Poppins', sans-serif, bold;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #333399;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #333399;
+  width: 60%;
+  left: 0;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+
+.dropdown-content .header {
+  background: #333399;
+  padding: 16px;
+  color: white;
+}
+
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  background-color: #d9d9d9;
+  height: 400px;
+}
+
+
+.column a {
+  float: none;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+
+.column a:hover {
+  background-color: #b3b3e6;
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    height: auto;
+  }
+}
+
+	#banner {
+  background-image: url("https://images.squarespace-cdn.com/content/v1/5c34c79625bf026bea547211/1547162142203-63GY961US6R0N32OSM4K/SpringAwakeningBway0167+copy.jpg");
+background-position: 10% 20%;
+background-size: 100%;
+  padding: 10%;
+  text-align: center;
+  color: white;
+      font-family: 'Poppins', sans-serif, bold;
+}
+
+mark { 
+  background-color: #71797b;
+		color: white;
+}
+
+#maintxt {
+      font-family: 'Poppins', sans-serif, bold;
+  color: #2d2d86;
+}
+
+.sidenav {
+  width: 150px;
+  position: fixed;
+  z-index: 1;
+  bottom: 30px;
+  right: 30px;
+  overflow-x: hidden;
+background:  #a2b1ff ;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #144770;
+  display: block;
+text-align: right;
+}
+
+.sidenav a:hover {
+  color: #ffffff;
+}
+
+.main {
+  margin-left: 140px; /* Same width as the sidebar + left position in px */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+<@&820233539723329587>dia screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 30px;}
+}
+	
+</style>
+	</head>
+	
+	<body>
+	<div class="navbar">
+  <a href="whereigowhenigothere.github.io">Home</a>
+  <div class="dropdown">
+    <button class="dropbtn">Audios 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content" height=400px>
+      
+      <div class="row">
+        <div class="column">
+          <h3>A-H</h3>
+          <a href="/audios-a-h.html">Others A-H</a>
+          <a href="/beetlejuice.html">Beetlejuice</a>
+          <a href="/be-more-chill.html">Be More Chill</a>
+          <a href="/dear-evan-hansen.html">Dear Evan Hansen</a>
+          <a href="/hamilton.html">Hamilton</a>
+          <a href="/heathers.html">Heathers</a>
+        </div>
+        <div class="column">
+          <h3>I-Q</h3>
+          <a href="/audios-i-q.html">Others I-Q</a>
+          <a href="/les-miserables.html">Les Miserables</a>
+          <a href="/newsies.html">Newsies</a>
+          <a href="/oklahoma!.html">Oklahoma!</a>
+          <a href="/once-on-this-island.html">Once On This Island</a>
+        </div>
+        <div class="column">
+          <h3>R-Z</h3>
+          <a href="/audios-r-z.html">Others R-Z</a>
+          <a href="/spring-awakening.html">Spring Awakening</a>
+          <a href="/the-view-upstairs.html">The View Upstairs</a>
+          <a href="/waitress.html">Waitress</a>
+          <a href="/wicked.html">Wicked</a>
+        </div>
+        
+	      <div class="column">
+          <h3>&, [, etc</h3>
+          <a href="#">Others</a>
+          <a href="#">& Juliet</a>
+        </div>
+        
+      </div>
+    </div>
+  </div> 
+    
+    
+    
+    <div class="dropdown">
+    <button class="dropbtn">Videos 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      
+      <div class="row">
+        <div class="column">
+          <h3>A-H</h3>
+          <a href="/videos-a-h.html">A-H</a>
+        </div>
+        <div class="column">
+          <h3>I-Q</h3>
+          <a href="/videos-i-q.html">I-Q</a></div>
+        <div class="column">
+          <h3>R-Z</h3>
+          <a href="/videos-r-z.html">Others R-Z</a>
+          <a href="videos-spring-awakening.html">Spring Awakening</a>
+        </div>
+        
+      </div>
+    </div>
+  </div> 
+        <a href="/wants.html">Wants</a>
+        <a href="/rules-contact.html">Rules/Contact</a>
+        <a href="/gifts.html">Gifts</a>
+        <a href="/my-masters.html">My Masters</a>
+
+
+</div>
+
+<div style="padding:16px">	
+	<div id="banner">
+
+			<h1><mark>audios (spring awakening)</mark></h1>
+		</div>
+		<p>
+        <div id="maintxt">
+        
+        
+        
+        <h2 id="workshop"><br><br>workshop</h2>
+			<p><strong>Spring Awakening - Workshop - 2001<br /></strong><span style="text-decoration: underline;">Format</span>: mp3 (TRACKED) [170.17 MB]<br /><span style="text-decoration: underline;">Cast</span>: Gavin Creel [Melchior Gabor], Lea Michele [Wendla Bergmann], Eric Millegan [Moritz Stiefel], Bridget Berger [Ilse Neumann], Nikki M James [Martha Bessell], Chris Garneau [Hanschen Rilow], Alex Brummel [Otto L&auml;mmermeier], Frank Wood [The Adult Men], Michael McElroy [The Masked Man], Michael Benjamin Washington, John Sullivan</p>
+            
+            
+                    <h2 id="lcw"><br><br>lincoln center workshop</h2>
+
+<p><strong>Spring Awakening - Lincoln Centre Workshop - 2 February 2005<br /></strong><span style="text-decoration: underline;">Format</span>: mp3 (TRACKED) [67.25 MB]<br /><span style="text-decoration: underline;">Cast</span>: Ben Walker [Melchior Gabor], Lea Michele [Wendla Bergmann], John Gallagher Jr [Moritz Stiefel], Dreama Walker [Ilse Neumann], Molly Kallins [Martha Bessell], Adam Shonkwiler [Hanschen Rilow], Tim Ehrlich [Ernst Robel], Skylar Astin [Otto L&auml;mmermeier], Joseph Lemay [Georg Zirschnitz], Devyn Rush [Anna], Aryana Rodriguez [Thea Rilow], Kate Burton [The Adult Women], Frank Wood [The Adult Men], Michael Cerveris [The Masked Man]<br /><span style="text-decoration: underline;">Notes</span>: Concert staging presented as part of Lincoln Center&rsquo;s American Songbook series. Soundboard.</p>
+
+        <h2 id="ob"><br><br>off-broadway</h2>
+        
+<p><strong>Spring Awakening - Off-Broadway - 17 August 2006</strong><br /><span style="text-decoration: underline;">Format</span>: m4a (TRACKED) [105.24 MB]<br /><span style="text-decoration: underline;">Cast</span>: Jonathan Groff [Melchior Gabor], Lea Michele [Wendla Bergmann], John Gallagher Jr [Moritz Stiefel], Lauren Pritchard [Ilse Neumann], Jonathan B Wright [Hanschen Rilow], Gideon Glick [Ernst Robel], Brian Charles Johnson [Otto L&auml;mmermeier], Skylar Astin [Georg Zirschnitz], Phoebe Strole [Anna], Remy Zaken [Thea Rilow], Mary McCann [The Adult Women], Frank Wood [The Adult Men]<br /><span style="text-decoration: underline;">Notes</span>: Final Off-Broadway Performance</p>
+
+        <h2 id="bway"><br><br>broadway</h2>
+
+<div class="paragraph"><strong>Spring Awakening - Broadway - 16 November 2006</strong><br /><span style="text-decoration: underline;">Format</span>: mp3 (TRACKED) [86.07 MB]<br /><span style="text-decoration: underline;">Cast</span>: Jonathan Groff [Melchior Gabor], Lea Michele [Wendla Bergmann], John Gallagher Jr [Moritz Stiefel], Lauren Pritchard [Ilse Neumann], Jonathan B Wright [Hanschen Rilow], Gideon Glick [Ernst Robel], Brian Charles Johnson [Otto L&auml;mmermeier], Skylar Astin [Georg Zirschnitz], Phoebe Strole [Anna], Remy Zaken [Thea Rilow], Christine Estabrook [The Adult Women], Stephen Spinella [The Adult Men]<br /><span style="text-decoration: underline;">Notes</span>: First Preview.</div>
+<div class="paragraph">&nbsp;</div>
+<div class="paragraph"><strong>Spring Awakening - Broadway - 24 November 2006</strong><br /><span style="text-decoration: underline;">Format</span>: mp3 (TRACKED) [130.78 MB]<br /><span style="text-decoration: underline;">Cast</span>: Jonathan Groff [Melchior Gabor], Lea Michele [Wendla Bergmann], John Gallagher Jr [Moritz Stiefel], Krysta Rodriguez [u/s Ilse Neumann], Lilli Cooper [Martha Bessell], Jonathan B Wright [Hanschen Rilow], Gideon Glick [Ernst Robel], Brian Charles Johnson [Otto L&auml;mmermeier], Skylar Astin [Georg Zirschnitz], Phoebe Strole [Anna], Remy Zaken [Thea Rilow], Christine Estabrook [The Adult Women], Stephen Spinella [The Adult Men]</div>
+<div class="paragraph">&nbsp;</div>
+<div class="paragraph"><strong>Spring Awakening - Broadway - 17 December 2006</strong><br /><span style="text-decoration: underline;">Format</span>: wma (UNTRACKED) [52.44 MB]<br /><span style="text-decoration: underline;">Cast</span>: Jonathan Groff [Melchior Gabor], Lea Michele [Wendla Bergmann], John Gallagher Jr [Moritz Stiefel], Lauren Pritchard [Ilse Neumann], Lilli Cooper [Martha Bessell], Jonathan B Wright [Hanschen Rilow], Gideon Glick [Ernst Robel], Brian Charles Johnson [Otto L&auml;mmermeier], Skylar Astin [Georg Zirschnitz], Phoebe Strole [Anna], Remy Zaken [Thea Rilow], Christine Estabrook [The Adult Women], Stephen Spinella [The Adult Men]<br /><span style="text-decoration: underline;">Notes</span>: Very cool audio. Recorded from stage, so the sound perspective is very different, lots of stuff in ensemble that aren&rsquo;t so easy to pick up on regular audios.</div>
+<div class="paragraph">&nbsp;</div>
+<div class="paragraph"><span style="font-weight: bold;">Spring Awakening - Broadway - 18 December 2006</span><br /><span style="text-decoration: underline;">Format</span>: mp3 (TRACKED) [205.26 MB]<br /><span style="text-decoration: underline;">Cast</span>: Jonathan Groff [Melchior Gabor], Lea Michele [Wendla Bergmann], John Gallagher Jr [Moritz Stiefel], Lauren Pritchard [Ilse Neumann], Lilli Cooper [Martha Bessell], Jonathan B Wright [Hanschen Rilow], Robi Hager [u/s Ernst Robel], Brian Charles Johnson [Otto L&auml;mmermeier], Skylar Astin [Georg Zirschnitz], Phoebe Strole [Anna], Remy Zaken [Thea Rilow], Christine Estabrook [The Adult Women], Stephen Spinella [The Adult Men]<br /><span style="text-decoration: underline;">Notes</span>: Robi's first as Ernst</div>
+<div class="paragraph">&nbsp;</div>
+<div class="paragraph"><strong>Spring Awakening - Broadway - 10 February 2007 (Matinee)</strong><br /><span style="text-decoration: underline;">Format</span>: mp3 (TRACKED) [129.51 MB]<br /><span style="text-decoration: underline;">Cast</span>: Jonathan Groff [Melchior Gabor], Lea Michele [Wendla Bergmann], John Gallagher Jr [Moritz Stiefel], Krysta Rodriguez [e/c Ilse Neumann], Jonathan B Wright [Hanschen Rilow], Gideon Glick [Ernst Robel], Brian Charles Johnson [Otto L&auml;mmermeier], Skylar Astin [Georg Zirschnitz], Remy Zaken [Thea Rilow], Stephen Spinella [The Adult Women], Stephen Spinella [The Adult Men]</div>
+<div class="paragraph">&nbsp;</div>
+<div class="paragraph"><strong>Spring Awakening - Broadway - 2 March 2007</strong><br /><span style="text-decoration: underline;">Format</span>: mp3 (TRACKED) [99.37 MB]<br /><span style="text-decoration: underline;">Cast</span>: Jonathan Groff [Melchior Gabor], Lea Michele [Wendla Bergmann], John Gallagher Jr [Moritz Stiefel], Lauren Pritchard [Ilse Neumann], Krysta Rodriguez [u/s Martha Bessell], Gerard Canonico [u/s Hanschen Rilow], Gideon Glick [Ernst Robel], Brian Charles Johnson [Otto L&auml;mmermeier], Skylar Astin [Georg Zirschnitz], Phoebe Strole [Anna], Remy Zaken [Thea Rilow], Christine Estabrook [The Adult Women], Stephen Spinella [The Adult Men]</div>
+<div class="paragraph">&nbsp;</div>
+<div class="paragraph"><strong>Spring Awakening - Broadway - 1 April 2007</strong><br />Format: mp3 (TRACKED) [102.36 MB]<br /><span style="text-decoration: underline;">Cast</span>: Jonathan Groff [Melchior Gabor], Lea Michele [Wendla Bergmann], John Gallagher Jr [Moritz Stiefel], Lauren Pritchard [Ilse Neumann], Jennifer Damiano [u/s Martha Bessell], Jonathan B Wright [Hanschen Rilow], Gideon Glick [Ernst Robel], Brian Charles Johnson [Otto L&auml;mmermeier], Skylar Astin [Georg Zirschnitz], Phoebe Strole [Anna], Remy Zaken [Thea Rilow], Frances Mercanti-Anthony [The Adult Women], Stephen Spinella [The Adult Men]</div>
+<div class="paragraph">&nbsp;</div>
+<div class="paragraph"><strong>Spring Awakening - Broadway - 11 June 2007</strong><br />Format: mp3 (TRACKED) [146.66 MB]<br /><span style="text-decoration: underline;">Cast</span>: Jonathan Groff [Melchior Gabor], Lea Michele [Wendla Bergmann], John Gallagher Jr [Moritz Stiefel], Lauren Pritchard [Ilse Neumann], Matt Doyle [u/s Hanschen Rilow], Gideon Glick [Ernst Robel], Brian Charles Johnson [Otto L&auml;mmermeier], Skylar Astin [Georg Zirschnitz], Phoebe Strole [Anna], Remy Zaken [Thea Rilow], Christine Estabrook [The Adult Women], Stephen Spinella [The Adult Men]<br /><span style="text-decoration: underline;">Notes</span>: First performance after the Tony Awards, John Gallagher Jr. has cited this as his favourite performance out of his run. Terrible quality, unfortunately</div>
+<div class="paragraph">&nbsp;</div>
+<div class="paragraph"><strong>Spring Awakening - Broadway - 19 June 2007</strong><br />Format: mp3 (TRACKED) [149.46 MB]<br /><span style="text-decoration: underline;">Cast</span>: Jonathan Groff [Melchior Gabor], Lea Michele [Wendla Bergmann], John Gallagher Jr [Moritz Stiefel], Lauren Pritchard [Ilse Neumann], Lily Cooper [Martha Bessell], Gideon Glick [Ernst Robel], Brian Charles Johnson [Otto L&auml;mmermeier], Skylar Astin [Georg Zirschnitz], Phoebe Strole [Anna], Remy Zaken [Thea Rilow], Christine Estabrook [The Adult Women], Stephen Spinella [The Adult Men]<br /><span style="text-decoration: underline;">Notes</span>: Soundboard</div>
+<div class="paragraph">&nbsp;</div>
+<div class="paragraph"><span style="font-weight: bold;">Spring Awakening - Broadway - 14 July 2007</span><br /><span style="text-decoration: underline;">Format</span>: mp3 (TRACKED) [50.87 MB]<br /><span style="text-decoration: underline;">Cast</span>: Matt Doyle [u/s Melchior Gabor], Lea Michele [Wendla Bergmann], John Gallagher Jr [Moritz Stiefel], Lauren Pritchard [Ilse Neumann], Jonathan B Wright [Hanschen Rilow], Gideon Glick [Ernst Robel], Brian Charles Johnson [Otto L&auml;mmermeier], Skylar Astin [Georg Zirschnitz], Phoebe Strole [Anna], Remy Zaken [Thea Rilow], Christine Estabrook [The Adult Women], Stephen Spinella [The Adult Men]<br /><span style="text-decoration: underline;">Notes</span>: Matt's laryngitis show</div>
+<div class="paragraph">&nbsp;</div>
+<div class="paragraph"><strong>Spring Awakening - Broadway - 17 July 2007</strong><br /><span style="text-decoration: underline;">Format</span>: wma (TRACKED) [53.04 MB]<br /><span style="text-decoration: underline;">Cast</span>: Jonathan Groff [Melchior Gabor], Phoebe Strole [u/s Wendla Bergmann], John Gallagher Jr [Moritz Stiefel], Lauren Pritchard [Ilse Neumann], Lily Cooper [Martha Bessell], Jonathan B Wright [Hanschen Rilow], Gideon Glick [Ernst Robel], Brian Charles Johnson [Otto L&auml;mmermeier], Skylar Astin [Georg Zirschnitz], Krysta Rodriguez [u/s Anna], Remy Zaken [Thea Rilow], Christine Estabrook [The Adult Women], Stephen Spinella [The Adult Men]</div>
+<div class="paragraph">&nbsp;</div>
+<div class="paragraph"><strong>Spring Awakening - Broadway - 18 July 2007 (Matinee)</strong><br /><span style="text-decoration: underline;">Format</span>: mp3 (TRACKED) [129.96]<br /><span style="text-decoration: underline;">Cast</span>: Jonathan Groff [Melchior Gabor], Phoebe Strole [u/s Wendla Bergmann], John Gallagher Jr [Moritz Stiefel], Lauren Pritchard [Ilse Neumann], Lilli Cooper [Martha Bessell], Robi Hager [u/s Hanschen Rilow], Gideon Glick [Ernst Robel], Brian Charles Johnson [Otto L&auml;mmermeier], Skylar Astin [Georg Zirschnitz], Krysta Rodriguez [u/s Anna], Remy Zaken [Thea Rilow], Christine Estabrook [The Adult Women], Stephen Spinella [The Adult Men]</div>
+<div class="paragraph">&nbsp;</div>
+<div class="paragraph"><strong>Spring Awakening - Broadway - 20 July 2007</strong><br /><span style="text-decoration: underline;">Format</span>: mp3 (TRACKED) [52.48 MB]<br /><span style="text-decoration: underline;">Cast</span>: Jonathan Groff [Melchior Gabor], Phoebe Strole [u/s Wendla Bergmann], Lauren Pritchard [Ilse Neumann], Lilli Cooper [Martha Bessell], Jonathan B Wright [Hanschen Rilow], Gideon Glick [Ernst Robel], Brian Charles Johnson [Otto L&auml;mmermeier], Skylar Astin [Georg Zirschnitz], Jennifer Damiano [u/s Anna], Remy Zaken [Thea Rilow], Christine Estabrook [The Adult Women]<br /><span style="text-decoration: underline;">Notes</span>: Krysta Rodriguez' last show</div>
+<div class="paragraph">&nbsp;</div>
+<div class="paragraph"><strong>Spring Awakening - Broadway - 4 August 2007 (Matinee)</strong><br /><span style="text-decoration: underline;">Format</span>: wma (TRACKED) [53.27 MB]<br /><span style="text-decoration: underline;">Cast</span>: Jonathan Groff [Melchior Gabor], Lea Michele [Wendla Bergmann], John Gallagher Jr [Moritz Stiefel], Phoebe Strole [u/s Ilse Neumann], Lilli Cooper [Martha Bessell], Jonathan B Wright [Hanschen Rilow], Gideon Glick [Ernst Robel], Brian Charles Johnson [Otto L&auml;mmermeier], Robi Hager [u/s Georg Zirschnitz], Jennifer Damiano [u/s Anna], Remy Zaken [Thea Rilow], Christine Estabrook [The Adult Women], Ken Marks [t/r The Adult Men]</div>
+<div class="paragraph">&nbsp;</div>
+<div class="paragraph"><strong>Spring Awakening - Broadway - 18 August 2007 (Matinee)</strong><br /><span style="text-decoration: underline;">Format</span>: mp3 (TRACKED) [277.92 MB]<br /><span style="text-decoration: underline;">Cast</span>: Jonathan Groff [Melchior Gabor], Lea Michele [Wendla Bergmann], Gerard Canonico [u/s Moritz Stiefel], Lauren Pritchard [Ilse Neumann], Jennifer Damiano [u/s Martha Bessell], Jonathan B Wright [Hanschen Rilow], Gideon Glick [Ernst Robel], Matt Doyle [u/s Otto L&auml;mmermeier], Skylar Astin [Georg Zirschnitz], Phoebe Strole [Anna], Remy Zaken [Thea Rilow], Christine Estabrook [The Adult Women], Ken Marks [u/s The Adult Men]</div>
+<div class="paragraph">&nbsp;</div>
+<div class="paragraph"><span style="font-weight: bold;">Spring Awakening - Broadway - 1 September 2007 (Evening)</span><br /><span style="text-decoration: underline;">Format</span>: wma (TRACKED) [53.76 MB]<br /><span style="text-decoration: underline;">Cast</span>: Jonathan Groff [Melchior Gabor], Lea Michele [Wendla Bergmann], John Gallagher Jr [Moritz Stiefel], Jennifer Damiano [u/s Ilse Neumann], Lilli Cooper [Martha Bessell], Jonathan B Wright [Hanschen Rilow], Blake Daniel [Ernst Robel], Matt Doyle [u/s Otto L&auml;mmermeier], Gerard Canonico [u/s Georg Zirschnitz], Alexandra Socha [u/s Anna], Remy Zaken [Thea Rilow], Christine Estabrook [The Adult Women], Stephen Spinella [The Adult Men]</div>
+<div class="paragraph">&nbsp;</div>
+<div class="paragraph"><strong>Spring Awakening - Broadway - 22 September 2007 (Matinee)</strong><br /><span style="text-decoration: underline;">Format</span>: mp3 (TRACKED) [103.27 MB]<br /><span style="text-decoration: underline;">Cast</span>: Matt Doyle [u/s Melchior Gabor], Lea Michele [Wendla Bergmann], John Gallagher Jr [Moritz Stiefel], Lauren Pritchard [Ilse Neumann], Lilli Cooper [Martha Bessell], Jonathan B Wright [Hanschen Rilow], Blake Daniel [Ernst Robel], Brian Charles Johnson [Otto L&auml;mmermeier], Skylar Astin [Georg Zirschnitz], Phoebe Strole [Anna], Jennifer Damiano [u/s Thea Rilow], Christine Estabrook [The Adult Women], Stephen Spinella [The Adult Men]</div>
+<div class="paragraph">&nbsp;</div>
+<div class="paragraph"><strong>Spring Awakening - Broadway - 30 October 2007</strong><br /><span style="text-decoration: underline;">Format</span>: mp3 (TRACKED) [99.68 MB]<br /><span style="text-decoration: underline;">Cast</span>: Jesse Swenson [u/s Melchior Gabor], Lea Michele [Wendla Bergmann], John Gallagher Jr [Moritz Stiefel], Lauren Pritchard [Ilse Neumann], Lilli Cooper [Martha Bessell], Jonathan B Wright [Hanschen Rilow], Blake Daniel [Ernst Robel], Brian Charles Johnson [Otto L&auml;mmermeier], Skylar Astin [Georg Zirschnitz], Phoebe Strole [Anna], Remy Zaken [Thea Rilow], Christine Estabrook [The Adult Women], Stephen Spinella [The Adult Men]</div>
+<div class="paragraph">&nbsp;</div>
+<div class="paragraph"><strong>Spring Awakening - Broadway - 19 January 2008 (Matinee)</strong><br /><span style="text-decoration: underline;">Format</span>: wma (TRACKED) [53.88 MB]<br /><span style="text-decoration: underline;">Cast</span>: Jesse Swenson [u/s Melchior Gabor], Alexandra Socha [u/s Wendla Bergmann], Blake Bashoff [Moritz Stiefel], Eryn Murman [u/s Ilse Neumann], Lilli Cooper [Martha Bessell], Matt Doyle [u/s Hanschen Rilow], Gerard Canonico [u/s Ernst Robel], Brian Charles Johnson [Otto L&auml;mmermeier], Skylar Astin [Georg Zirschnitz], Remy Zaken [Thea Rilow], Kate Burton [The Adult Women], Glenn Fleshler [The Adult Men]</div>
+<div class="paragraph">&nbsp;</div>
+<div class="paragraph"><strong>Spring Awakening - Broadway - 20 January 2008</strong><br /><span style="text-decoration: underline;">Format</span>: mp3 (TRACKED) [105.18 MB]<br /><span style="text-decoration: underline;">Cast</span>: Jesse Swenson [u/s Melchior Gabor], Alexandra Socha [u/s Wendla Bergmann], Blake Bashoff [Moritz Stiefel], Lauren Pritchard [Ilse Neumann], Lilli Cooper [Martha Bessell], Matt Doyle [u/s Hanschen Rilow], Gerard Canonico [u/s Ernst Robel], Brian Charles Johnson [Otto L&auml;mmermeier], Skylar Astin [Georg Zirschnitz], Jenna Ushkowitz [u/s Anna], Remy Zaken [Thea Rilow], Kate Burton [The Adult Women], Glenn Fleshler [The Adult Men]<br /><span style="text-decoration: underline;">Notes</span>: Jenna Ushkowitz&rsquo;s first performance.</div>
+<div class="paragraph">&nbsp;</div>
+<div class="paragraph"><strong>Spring Awakening - Broadway - 11 March 2008</strong><br /><span style="text-decoration: underline;">Format</span>: wma (TRACKED) [54.79 MB]<br /><span style="text-decoration: underline;">Cast</span>: Jonathan Groff [Melchior], Alexandra Socha [u/s Wendla], Blake Bashoff [Moritz], Emma Hunton [Ilse], Phoebe Strole [Anna], Eryn Murman [u/s Thea], Lilli Cooper [Martha], Jesse Swenson [u/s Hanschen], Blake Daniel [Ernst], Skylar Astin [Georg], Brian Charles Johnson [Otto], Kristine Nielsen [Adult Women], Glenn Fleshler [Adult Men]</div>
+<div class="paragraph">&nbsp;</div>
+<div class="paragraph"><strong>Spring Awakening - Broadway - 16 April 2008</strong><br /><span style="text-decoration: underline;">Format</span>: mp3 (TRACKED) [135.36 MB]<br /><span style="text-decoration: underline;">Master</span>: Liz Woolf<br /><span style="text-decoration: underline;">Cast</span>: Jonathan Groff [Melchior Gabor], Lea Michele [Wendla Bergmann], Blake Bashoff [Moritz Stiefel], Emma Hunton [Ilse Neumann], Lilli Cooper [Martha Bessell], Jonathan B Wright [Hanschen Rilow], Gerard Canonico [u/s Ernst Robel], Brian Charles Johnson [Otto L&auml;mmermeier], Skylar Astin [Georg Zirschnitz], Phoebe Strole [Anna], Remy Zaken [Thea Rilow], Christine Estabrook [The Adult Women], Glenn Fleshler [The Adult Men]<br /><span style="text-decoration: underline;">Notes</span>: Recorded Onstage from AA3, includes BC/EFA speech.</div>
+<div class="paragraph">&nbsp;</div>
+<div class="paragraph"><span style="font-weight: bold;">Spring Awakening - Broadway - 20 April 2008 (Evening)</span><br /><span style="text-decoration: underline;">Format</span>: mp3 (TRACKED) [163.91 MB]<br /><span style="text-decoration: underline;">Cast</span>: Jonathan Groff [Melchior Gabor], Lea Michele [Wendla Bergmann], Blake Bashoff [Moritz Stiefel], Emma Hunton [Ilse Neumann], Jonathan B Wright [Hanschen Rilow], Blake Daniel [Ernst Robel], Brian Charles Johnson [Otto L&auml;mmermeier], Skylar Astin [Georg Zirschnitz], Phoebe Strole [Anna], Jenna Ushkowitz [u/s Thea Rilow], Christine Estabrook [The Adult Women], Glenn Fleshler [The Adult Men]<br /><span style="text-decoration: underline;">Notes</span>: Jonathan B. Wright&rsquo;s last performance, Soundboard recording</div>
+<div class="paragraph">&nbsp;</div>
+<div class="paragraph"><strong>Spring Awakening - Broadway - 3 May 2008</strong><br /><span style="text-decoration: underline;">Format</span>: mp3 (TRACKED) [133.58 MB]<br /><span style="text-decoration: underline;">Cast</span>: Jonathan Groff [Melchior Gabor], Lea Michele [Wendla Bergmann], Blake Bashoff [Moritz Stiefel], Emma Hunton [Ilse Neumann], Eryn Murman [u/s Martha Bessell], Blake Daniel [Ernst Robel], Gerard Canonico [u/s Otto L&auml;mmermeier], Skylar Astin [Georg Zirschnitz], Phoebe Strole [Anna], Jenna Ushkowitz [u/s Thea Rilow], Kate Burton [The Adult Women], Glenn Fleshler [The Adult Men]</div>
+<div class="paragraph">&nbsp;</div>
+<div class="paragraph"><strong>Spring Awakening - Broadway - 28 June 2008</strong><br /><span style="text-decoration: underline;">Format</span>: mp3 (UNTRACKED) [134.99 MB]<br /><span style="text-decoration: underline;">Master</span>: DarkIKnowWell<br /><span style="text-decoration: underline;">Cast</span>: Kyle Riabko [Melchior Gabor], Alexandra Socha [Wendla Bergmann], Blake Bashoff [Moritz Stiefel], Emma Hunton [Ilse Neumann], Lilli Cooper [Martha Bessell], Matt Shingledecker [u/s Hanschen Rilow], Blake Daniel [Ernst Robel], Brian Charles Johnson [Otto L&auml;mmermeier], Skylar Astin [Georg Zirschnitz], Phoebe Strole [Anna], Alice Lee [u/s Thea Rilow], Christine Estabrook [The Adult Women], Glenn Fleshler [The Adult Men]<br /><span style="text-decoration: underline;">Notes</span>: Matt Shingledecker's first, and only, performance as Hanschen.</div>
+<div class="paragraph">&nbsp;</div>
+<div class="paragraph"><strong>Spring Awakening - Broadway - 8 August 2008</strong><br /><span style="text-decoration: underline;">Format</span>: mp3 (TRACKED) [133.56 MB]<br /><span style="text-decoration: underline;">Cast</span>: Matt Doyle [t/r Melchior Gabor], Eryn Murman [u/s Wendla Bergmann], Gerard Canonico [Moritz Stiefel], Emma Hunton [Ilse Neumann], Jesse Swenson [u/s Hanschen Rilow], Morgan Karr [u/s Ernst Robel], Gabe Violett [Otto L&auml;mmermeier], Andrew Durand [Georg Zirschnitz], Emily Kinney [Anna], Caitlin Kinnunen [Thea Rilow], Christine Estabrook [The Adult Women], Glenn Fleshler [The Adult Men]</div>
+<div class="paragraph">&nbsp;</div>
+<div class="paragraph"><strong>Spring Awakening - Broadway - 7 October 2008<br /></strong><span style="text-decoration: underline;">Format</span>: mp3 (TRACKED) [132.55 MB]<br /><span style="text-decoration: underline;">Cast</span>: Hunter Parrish [Melchior Gabor], Alexandra Socha [Wendla Bergmann], Morgan Karr [u/s Moritz Stiefel], Emma Hunton [Ilse Neumann], Amanda Castanos [Martha Bessell], Matt Doyle [Hanschen Rilow], Blake Daniel [Ernst Robel], Gabe Violett [Otto L&auml;mmermeier], Andrew Durand [Georg Zirschnitz], Emily Kinney [Anna], Jenna Ushkowitz [u/s Thea Rilow], Christine Estabrook [The Adult Women], Glenn Fleshler [The Adult Men]<br /><span style="text-decoration: underline;">Notes</span>: Morgan Karr's first as Moritz</div>
+<div class="paragraph">&nbsp;</div>
+<div class="paragraph"><span style="font-weight: bold;">Spring Awakening - Broadway - 12 December 2008</span><br /><span style="text-decoration: underline;">Format</span>: mp3 (TRACKED) [132.54 MB]<br /><span style="text-decoration: underline;">Cast</span>: Matt Doyle [Melchior Gabor], Alexandra Socha [Wendla Bergmann], Gerard Canonico [Moritz Stiefel], Jenna Ushkowitz [u/s Ilse Neumann], Amanda Castanos [Martha Bessell], Zach Reiner-Harris [u/s Hanschen Rilow], Blake Daniel [Ernst Robel], Gabe Violett [Otto L&auml;mmermeier], Andrew Durand [Georg Zirschnitz], Emily Kinney [Anna], Caitlin Kinnunen [Thea] , Frances Mercanti-Anthony [u/s The Adult Women], Glenn Fleshler [The Adult Men]</div>
+<div class="paragraph">&nbsp;</div>
+<div class="paragraph"><strong>Spring Awakening - Broadway - 15 January 2009<br /></strong><span style="text-decoration: underline;">Format</span>: mp3 (TRACKED) [264.18 MB]<br /><span style="text-decoration: underline;">Master</span>: bwaytrader<br /><span style="text-decoration: underline;">Cast</span>: Hunter Parrish [Melchior Gabor], Alexandra Socha [Wendla Bergmann], Gerard Canonico [Moritz Stiefel], Emma Hunton [Ilse Neumann], Amanda Castanos [Martha Bessell], Matt Doyle [Hanschen Rilow], Blake Daniel [Ernst Robel], Gabe Violett [Otto L&auml;mmermeier], Andrew Durand [Georg Zirschnitz], Emily Kinney [Anna], Caitlin Kinnunen [Thea Rilow], Christine Estabrook [The Adult Women], Glenn Fleshler [The Adult Men]<br /><span style="text-decoration: underline;">Notes</span>: Particularly high-energy performance! And the audience was excellent, especially for a Thursday night. Recorded from the second row, orchestra, house left. Listen for the slight line flub.&nbsp;</div>
+<p><span style="font-weight: bold;">Spring Awakening - Broadway - 18 January 2009</span><br /><span style="text-decoration: underline;">Format</span>: mp3 (TRACKED) [131.1 MB]<br /><span style="text-decoration: underline;">Master</span>: Girl Friday<br /><span style="text-decoration: underline;">Cast</span>:&nbsp;Hunter Parrish [Melchior], Alexandra Socha [Wendla], Gerard Canonico [Moritz], Emma Hunton [Ilse], Matt Doyle [Hanschen], Blake Daniel [Ernst], Amanda Castanos [Martha], Gabe Violett [Otto], Andrew Durand [Georg], Emily Kinney [Anna], Caitlin Kinnunen [Thea], Christine Estabrook [The Adult Women], Glenn Fleshler [The Adult Men]<br /><span style="text-decoration: underline;">Notes</span>: Includes speeches by Ira Pittelman, Duncan Sheik, Tom Hulce and Steven Sater.</p>
+
+        <h2 id="1nt"><br><br>first national tour</h2>
+
+<div class="paragraph"><span style="font-weight: bold;">Spring Awakening - First National Tour - 17 August 2008</span><br /><span style="text-decoration: underline;">Format</span>: mp3 (TRACKED) [192.96 MB]<br /><span style="text-decoration: underline;">Cast</span>: Kyle Riabko [Melchior Gabor], Christy Altomare [Wendla Bergmann], Blake Bashoff [Moritz Stiefel], Steffi DiDomenicantonio [Ilse Neumann], Sarah Hunt [Martha Bessell], Andy Mientus [Hanschen Rilow], Ben Moss [Ernst Robel], Anthony Lee Medina [Otto L&auml;mmermeier], Matt Shingledecker [Georg Zirschnitz], Gabrielle Garza [Anna], Kimiko Glenn [Thea Rilow], Angela Reed [The Adult Women], Henry Stram [The Adult Men]</div>
+<div class="paragraph">&nbsp;</div>
+<div class="paragraph"><span style="font-weight: bold;">Spring Awakening - First National Tour - 7 October 2008</span><br /><span style="text-decoration: underline;">Format</span>: mp3 (TRACKED) [131.76 MB]<br /><span style="text-decoration: underline;">Cast</span>: Matt Shingledecker [u/s Melchior Gabor], Christy Altomare [Wendla Bergmann], Blake Bashoff [Moritz Stiefel], Steffi DiDomenicantonio [Ilse Neumann], Andy Mientus [Hanschen Rilow], Ben Moss [Ernst Robel], Anthony Lee Medina [Otto L&auml;mmermeier], Lucas A Wells [u/s Georg Zirschnitz], Gabrielle Garza [Anna], Kimiko Glenn [Thea Rilow], Angela Reed [The Adult Women], Henry Stram [The Adult Men]</div>
+<div class="paragraph">&nbsp;</div>
+<div class="paragraph"><span style="font-weight: bold;">Spring Awakening - First National Tour - 22 October 2008</span><br /><span style="text-decoration: underline;">Format</span>: mp3 (TRACKED) [108.39 MB]<br /><span style="text-decoration: underline;">Cast</span>: Kyle Riabko [Melchior Gabor], Christy Altomare [Wendla Bergmann], Blake Bashoff [Moritz Stiefel], Steffi DiDomenicantonio [Ilse Neumann], Sarah Hunt [Martha Bessell], Andy Mientus [Hanschen Rilow], Ben Moss [Ernst Robel], Anthony Lee Medina [Otto L&auml;mmermeier], Matt Shingledecker [Georg Zirschnitz], Gabby Garza [Anna], Kimiko Glenn [Thea Rilow], Angela Reed [The Adult Women], Henry Stram [The Adult Men]</div>
+<div class="paragraph">&nbsp;</div>
+<div class="paragraph"><span style="font-weight: bold;">Spring Awakening - First National Tour - 25 October 2008 (Matinee)</span><br /><span style="text-decoration: underline;">Format</span>: mp3 (UNTRACKED) [189.71 MB]<br /><span style="text-decoration: underline;">Cast</span>: Kyle Riabko [Melchior], Blake Bashoff [Moritz], Christy Altamare [Wendla], Steffi D [Ilse], Gabrielle Garza [Anna]; Kimiko Glenn [Thea], Sarah Hunt [Martha], Anthony Lee Medina [Otto], Andy Mientus [Hanschen], Ben Moss [Ernst], Angela Reed [Adult Women], Matt Shingledecker [Georg], Claire Sparks [Ensemble], Henry Stram [Adult Men], Perry Sherman [Ensemble], Lucas A. Wells [Ensemble], Julie Benko [Ensemble], Krystina Alabado [Swing], Chase Davidson [Swing]<br /><span style="text-decoration: underline;">Notes</span>: Act 1 drops out from the beating scene on, Act 2 drops out during "Song of Purple Summer."</div>
+<div class="paragraph">&nbsp;</div>
+<div class="paragraph"><span style="font-weight: bold;">Spring Awakening - First National Tour - 25 October 2008 (Evening)</span><br /><span style="text-decoration: underline;">Format</span>: mp3 (TRACKED) - Soundboard [41.28 MB]<br /><span style="text-decoration: underline;">Cast</span>:&nbsp;Kyle Riabko [Melchior], Christy Altomare [Wendla], Blake Bashoff [Moritz], Steffi DiDomenicantonio [Ilse], Andy Mientus [Hanschen], Ben Moss [Ernst], Sarah Hunt [Martha], Anthony Lee Medina [Otto], Matt Shingledecker [Georg], Gabrielle Garza [Anna], Kimiko Glenn [Thea], Angela Reed [The Adult Women], Henry Stram [The Adult Men]<br /><span style="text-decoration: underline;">Notes</span>: Soundboard (assisted listening device) recording. Includes the following songs only: &lsquo;Mama Who Bore Me&rsquo; &amp; reprise, &lsquo;All That's Known&rsquo;, &lsquo;Bitch Of Living&rsquo;, the first half of &lsquo;My Junk&rsquo;, &lsquo;The Dark I Know Well&rsquo;, the second half of &lsquo;Don't Do Sadness/Blue Wind&rsquo;, &lsquo;Left Behind&rsquo;, &lsquo;Whispering&rsquo; and &lsquo;Those You've Known&rsquo;.</div>
+<div class="paragraph">&nbsp;</div>
+<div class="paragraph"><strong>Spring Awakening - First National Tour - 22 November 2008</strong><br /><span style="text-decoration: underline;">Format</span>: mp3 (TRACKED) [108.32 MB]<br /><span style="text-decoration: underline;">Cast</span>: Kyle Riabko [Melchior Gabor], Christy Altomare [Wendla Bergmann], Blake Bashoff [Moritz Stiefel], Steffi DiDomenicantonio [Ilse Neumann], Sarah Hunt [Martha Bessell], Andy Mientus [Hanschen Rilow], Ben Moss [Ernst Robel], Anthony Lee Medina [Otto L&auml;mmermeier], Matt Shingledecker [Georg Zirschnitz], Gabrielle Garza [Anna], Kimiko Glenn [Thea Rilow], Angela Reed [The Adult Women], Henry Stram [The Adult Men]</div>
+<div class="paragraph">&nbsp;</div>
+<div class="paragraph"><strong>Spring Awakening - First National Tour - 29 November 2008 (Matinee)</strong><br /><span style="text-decoration: underline;">Format</span>: mp3 (TRACKED) [93.21 MB]<br /><span style="text-decoration: underline;">Master</span>: Biitesize<br /><span style="text-decoration: underline;">Cast</span>: Matt Shingledecker [u/s Melchior Gabor], Christy Altomare [Wendla Bergmann], Blake Bashoff [Moritz Stiefel], Steffi DiDomenicantonio [Ilse Neumann], Sarah Hunt [Martha Bessell], Andy Mientus [Hanschen Rilow], Ben Moss [Ernst Robel], Anthony Lee Medina [Otto L&auml;mmermeier], Lucas A Wells [u/s Georg Zirschnitz], Gabrielle Garza [Anna], Kimiko Glenn [Thea Rilow], Angela Reed [The Adult Women], Henry Stram [The Adult Men]<br /><span style="text-decoration: underline;">Notes</span>: Ends during Whispering</div>
+<div class="paragraph">&nbsp;</div>
+<div class="paragraph"><span style="font-weight: bold;">Spring Awakening - First National Tour - 8 January 2009</span><br /><span style="text-decoration: underline;">Format</span>: m4a (TRACKED) [98.74 MB]<br /><span style="text-decoration: underline;">Cast</span>: Kyle Riabko [Melchior Gabor], Claire Sparks [u/s Wendla Bergmann], Blake Bashoff [Moritz Stiefel], Steffi DiDomenicantonio [Ilse Neumann], Sarah Hunt [Martha Bessell], Andy Mientus [Hanschen Rilow], Ben Moss [Ernst Robel], Anthony Lee Medina [Otto L&auml;mmermeier], Matt Shingledecker [Georg Zirschnitz], Gabrielle Garza [Anna], Kimiko Glenn [Thea Rilow], Angela Reed [The Adult Women], Henry Stram [The Adult Men]</div>
+<div class="paragraph">&nbsp;</div>
+<div class="paragraph"><strong>Spring Awakening - First National Tour - 14 February 2009</strong><br />Format: mp3 (TRACKED) [122.52 MB]<br /><span style="text-decoration: underline;">Cast</span>: Kyle Riabko [Melchior Gabor], Christy Altomare [Wendla Bergmann], Chase Davidson [u/s Moritz Stiefel], Steffi DiDomenicantonio [Ilse Neumann], Andy Mientus [Hanschen Rilow], Ben Moss [Ernst Robel], Anthony Lee Medina [Otto L&auml;mmermeier], Matt Shingledecker [Georg Zirschnitz], Gabrielle Garza [Anna], Kimiko Glenn [Thea Rilow], Angela Reed [The Adult Women], Henry Strahm [The Adult Men]</div>
+<div class="paragraph">&nbsp;</div>
+<div class="paragraph"><strong>Spring Awakening - First National Tour - 26 February 2009</strong><br /><span style="text-decoration: underline;">Format</span>: wav (UNTRACKED) [27.13 MB​]<br /><span style="text-decoration: underline;">Cast</span>: Kyle Riabko [Melchior], Christy Altomare [Wendla], Blake Bashoff [Moritz], Steffi D. [Ilse], Matt Shingledecker [Georg], Sarah Hunt [Martha], Andy Mientus [Hanschen], Ben Moss [Ernst], Anthony Lee Medina [Otto], Gabrielle Garza [Anna], Kimiko Glenn [Thea], Angela Reed [Adult Women], Henry Stram [Adult Men], Chase Davidson, Claire Sparks, Lucas Wells, Julie Benko</div>
+<div class="paragraph">&nbsp;</div>
+<div class="paragraph"><strong>Spring Awakening - First National Tour - 4 March 2009</strong><br /><span style="text-decoration: underline;">Format</span>: mp3 (TRACKED) [134.37 MB​]<br /><span style="text-decoration: underline;">Cast</span>: Matt Doyle [Melchior Gabor], Christy Altomare [Wendla Bergmann], Blake Bashoff [Moritz Stiefel], Steffi DiDomenicantonio [Ilse Neumann], Sarah Hunt [Martha Bessell], Andy Mientus [Hanschen Rilow], Ben Moss [Ernst Robel], Anthony Lee Medina [Otto L&auml;mmermeier], Matt Shingledecker [Georg Zirschnitz], Gabrielle Garza [Anna], Kimiko Glenn [Thea Rilow], Angela Reed [The Adult Women], Henry Strahm [The Adult Men]</div>
+<div class="paragraph">&nbsp;</div>
+<div class="paragraph"><strong>Spring Awakening - First National Tour - 6 March 2009</strong><br /><span style="text-decoration: underline;">Format</span>: mp3 (TRACKED) [107.59 MB]<br /><span style="text-decoration: underline;">Cast</span>: Matt Shingledecker [u/s Melchior Gabor], Christy Altomare [Wendla Bergmann], Blake Bashoff [Moritz Stiefel], Steffi DiDomenicantonio [Ilse Neumann], Sarah Hunt [Martha Bessell], Andy Mientus [Hanschen Rilow], Ben Moss [Ernst Robel], Anthony Lee Medina [Otto L&auml;mmermeier], Chase Davidson [u/s Georg Zirschnitz], Gabrielle Garza [Anna], Kimiko Glenn [Thea Rilow], Angela Reed [The Adult Women], Henry Strahm [The Adult Men]</div>
+<div class="paragraph">&nbsp;</div>
+<div class="paragraph"><span style="font-weight: bold;">Spring Awakening - First National Tour - 3 April 2009</span><br /><span style="text-decoration: underline;">Format</span>: mp3 (TRACKED) [134.37 MB​]<br /><span style="text-decoration: underline;">Cast</span>: Matt Doyle [s/b Melchior Gabor], Christy Altomare [Wendla Bergmann], Blake Bashoff [Moritz Stiefel], Steffi DiDomenicantonio [Ilse Neumann], Sarah Hunt [Martha Bessell], Andy Mientus [Hanschen Rilow], Ben Moss [Ernst Robel], Anthony Lee Medina [Otto L&auml;mmermeier], Matt Shingledecker [Georg Zirschnitz], Gabrielle Garza [Anna], Julie Benko [u/s Thea Rilow], Angela Reed [The Adult Women], Henry Stram [The Adult Men]</div>
+<div class="paragraph">&nbsp;</div>
+<div class="paragraph"><strong>Spring Awakening - First National Tour - 25 April 2009 (Matinee)</strong><br /><span style="text-decoration: underline;">Format</span>: mp3 (TRACKED) [114.36 MB​]<br /><span style="text-decoration: underline;">Cast</span>: Perry Sherman [u/s Melchior Gabor], Christy Altomare [Wendla Bergmann], Blake Bashoff [Moritz Stiefel], Steffi DiDomenicantonio [Ilse Neumann], Sarah Hunt [Martha Bessell], Andy Mientus [Hanschen Rilow], Ben Moss [Ernst Robel], Anthony Lee Medina [Otto L&auml;mmermeier], Matt Shingledecker [Georg Zirschnitz], Gabrielle Garza [Anna], Krystina Alabado [u/s Thea Rilow], Angela Reed [The Adult Women], Henry Stram [The Adult Men]</div>
+<div class="paragraph">&nbsp;</div>
+<div class="paragraph"><span style="font-weight: bold;">Spring Awakening - First National Tour - 26 May 2009</span><br /><span style="text-decoration: underline;">Format</span>: mp3 (TRACKED) [106.58 MB]<br /><span style="text-decoration: underline;">Master</span>: wordofyourbody<br /><span style="text-decoration: underline;">Cast</span>: Perry Sherman [u/s Melchior Gabor], Christy Altomare [Wendla Bergmann], Blake Bashoff [Moritz Stiefel], Julie Benko [u/s Ilse Neumann], Sarah Hunt [Martha Bessell], Andy Mientus [Hanschen Rilow], Ben Moss [Ernst Robel], Anthony Lee Medina [Otto L&auml;mmermeier], Matt Shingledecker [Georg Zirschnitz], Gabrielle Garza [Anna], Kimiko Glenn [Thea Rilow], Kate Hampton [u/s The Adult Women]</div>
+<div class="paragraph">&nbsp;</div>
+<div class="paragraph"><span style="font-weight: bold;">Spring Awakening - First National Tour - 30 May 2009 (Matinee)</span><br /><span style="text-decoration: underline;">Format</span>: mp3 (TRACKED) [105.67 MB]<br /><span style="text-decoration: underline;">Cast</span>: Kyle Riabko [Melchior Gabor], Christy Altomare [Wendla Bergmann], Blake Bashoff [Moritz Stiefel], Krystina Alabado [u/s Ilse Neumann], Andy Mientus [Hanschen Rilow], Ben Moss [Ernst Robel], Anthony Lee Medina [Otto L&auml;mmermeier], Matt Shingledecker [Georg Zirschnitz], Gabrielle Garza [Anna], Kimiko Glenn [Thea Rilow], Angela Reed [The Adult Women], Todd Cerveris [u/s The Adult Men]<br />​<span style="text-decoration: underline;">Notes</span>: Krystina Alabado's first performance as Ilse</div>
+<div class="paragraph">&nbsp;</div>
+<div class="paragraph"><span style="font-weight: bold;">Spring Awakening - First National Tour - 30 May 2009 (Evening)</span><br /><span style="text-decoration: underline;">Format</span>: RAR [133.16 MB]<br /><span style="text-decoration: underline;">Master</span>: iheartbroadway<br /><span style="text-decoration: underline;">Cast</span>: Kyle Riabko [Melchior], Christy Altomare [Wendla], Blake Bashoff [Moritz], Sarah Hunt [Martha], Krystina Alabado [Ilse u/s], Gabrielle Garza [Anna], Kimiko Glenn [Thea], Anthony Lee Medina [Otto], Andy Mientus [Hanschen], Ben Moss [Ernst], Matt Shingledecker [Georg], Angela Reed [Adult Women], Todd Cerveris [Adult Men u/s], Julie Benko [Onstage Ensemble], Perry Sherman [Onstage Ensemble], Lucas A. Wells [Onstage Ensemble].<br /><span style="text-decoration: underline;">Notes</span>: Recorded from front-front row. FEEL FREE TO SHARE THIS RECORDING, BUT ***DO NOT SELL*** AND **DO NOT POST ON YOUTUBE OR ANY PUBLIC SITES.**</div>
+<div class="paragraph">&nbsp;</div>
+<div class="paragraph"><span style="font-weight: bold;">Spring Awakening - First National Tour - 3 June 2009</span><br /><span style="text-decoration: underline;">Format</span>: mp3 (TRACKED) [106.04 MB​]<br /><span style="text-decoration: underline;">Cast</span>: Lucas A Wells [u/s Melchior Gabor], Christy Altomare [Wendla Bergmann], Blake Bashoff [Moritz Stiefel], Krystina Alabado [u/s Ilse Neumann], Sarah Hunt [Martha Bessell], Andy Mientus [Hanschen Rilow], Ben Moss [Ernst Robel], Anthony Lee Medina [Otto L&auml;mmermeier], Matt Shingledecker [Georg Zirschnitz], Gabby Garza [Anna], Kimiko Glenn [Thea Rilow], Angela Reed [The Adult Women], Henry Stram [The Adult Men]</div>
+<div class="paragraph">&nbsp;</div>
+<div class="paragraph"><span style="font-weight: bold;">Spring Awakening - First National Tour - 4 June 2009</span><br /><span style="text-decoration: underline;">Format</span>: mp3 (TRACKED) [105.33 MB​]<br /><span style="text-decoration: underline;">Cast</span>: Lucas A Wells [u/s Melchior Gabor], Christy Altomare [Wendla Bergmann], Blake Bashoff [Moritz Stiefel], Julie Benko [u/s Ilse Neumann], Sarah Hunt [Martha Bessell], Andy Mientus [Hanschen Rilow], Ben Moss [Ernst Robel], Anthony Lee Medina [Otto L&auml;mmermeier], Matt Shingledecker [Georg Zirschnitz], Gabby Garza [Anna], Kimiko Glenn [Thea Rilow], Kate Hampton [u/s The Adult Women], Henry Stram [The Adult Men]</div>
+<div class="paragraph">&nbsp;</div>
+<div class="paragraph"><strong>Spring Awakening - First National Tour - 28 June 2009</strong><br />Format: mp3 (TRACKED) [107.59 MB]<br /><span style="text-decoration: underline;">Cast</span>: Kyle Riabko [Melchior Gabor], Christy Altomare [Wendla Bergmann], Blake Bashoff [Moritz Stiefel], Steffi DiDomenicantonio [Ilse Neumann], Sarah Hunt [Martha Bessell], Andy Mientus [Hanschen Rilow], Ben Moss [Ernst Robel], Anthony Lee Medina [Otto L&auml;mmermeier], Matt Shingledecker [Georg Zirschnitz], Gabrielle Garza [Anna], Krystina Alabado [u/s Thea Rilow], Angela Reed [The Adult Women], Henry Stram [The Adult Men]<br /><span style="text-decoration: underline;">Notes</span>: Kyle Riabko's last</div>
+<div class="paragraph">&nbsp;</div>
+<div class="paragraph"><strong>Spring Awakening - First National Tour - 26 July 2009</strong><br /><span style="text-decoration: underline;">Format</span>: wma (TRACKED) [133.98 MB]<br /><span style="text-decoration: underline;">Cast</span>: Jake Epstein [Melchior Gabor], Christy Altomare [Wendla Bergmann], Blake Bashoff [Moritz Stiefel], Steffi DiDomenicantonio [Ilse Neumann], Krista Pioppi&nbsp; [u/s Martha Bessell], Andy Mientus [Hanschen Rilow], Ben Moss [Ernst Robel], Anthony Lee Medina [Otto L&auml;mmermeier], Matt Shingledecker [Georg Zirschnitz], Gabrielle Garza [Anna], Claire Sparks [u/s Thea Rilow], Angela Reed [The Adult Women], Henry Stram [The Adult Men]<br /><span style="text-decoration: underline;">Notes</span>: Krista's first as Martha</div>
+<div class="paragraph">&nbsp;</div>
+<div class="paragraph"><span style="font-weight: bold;">Spring Awakening - First National Tour - 7 August 2009</span><br /><span style="text-decoration: underline;">Format</span>: mp3 (TRACKED) [174.22 MB]<br /><span style="text-decoration: underline;">Cast</span>: Jake Epstein [Melchior Gabor], Christy Altomare [Wendla Bergmann], Chase Davidson [u/s Moritz Stiefel], Steffi DiDomenicantonio [Ilse Neumann], Andy Mientus [Hanschen Rilow], Ben Moss [Ernst Robel], Anthony Lee Medina [Otto L&auml;mmermeier], Matt Shingledecker [Georg Zirschnitz], Gabrielle Garza [Anna], Claire Sparks [u/s Thea Rilow], Angela Reed [The Adult Women], Henry Strahm [The Adult Men]<br /><span style="text-decoration: underline;">Notes</span>: Includes full Q&amp;A session with cast.</div>
+<div class="paragraph">&nbsp;</div>
+<div class="paragraph"><span style="font-weight: bold;">Spring Awakening - First National Tour - 15 August 2009 (Matinee)</span><br /><span style="text-decoration: underline;">Format</span>: mp3 (TRACKED) [212.33 MB]<br /><span style="text-decoration: underline;">Cast</span>: Jake Epstein [Melchior Gabor], Christy Altomare [Wendla Bergmann], Taylor Trensch [Moritz Stiefel], Steffi DiDomenicantonio [Ilse Neumann], Andy Mientus [Hanschen Rilow], Ben Fankhauser [Ernst Robel], Anthony Lee Medina [Otto L&auml;mmermeier], Matt Shingledecker [Georg Zirschnitz], Gabrielle Garza [Anna], Claire Sparks [u/s Thea Rilow], Angela Reed [The Adult Women], John Wodja [The Adult Men]<br /><span style="text-decoration: underline;">Notes</span>: Taylor Trensch, Ben Fankhauser and John Wojda's first performance.</div>
+<div class="paragraph">&nbsp;</div>
+<div class="paragraph"><strong>Spring Awakening - First National Tour - 11 October 2009<br /></strong><span style="text-decoration: underline;">Format</span>: mp3 (TRACKED) [132.68 MB]<br /><span style="text-decoration: underline;">Cast</span>: Jake Epstein [Melchior Gabor], Christy Altomare [Wendla Bergmann], Taylor Trensch [Moritz Stiefel], Steffi DiDomenicantonio [Ilse Neumann], Andy Mientus [Hanschen Rilow], Ben Fankhauser [Ernst Robel], Anthony Lee Medina [Otto L&auml;mmermeier], Matt Shingledecker [Georg Zirschnitz], Gabrielle Garza [Anna], Kimiko Glenn [Thea Rilow], Angela Reed [The Adult Women], John Wodja [The Adult Men]</div>
+<div class="paragraph">&nbsp;</div>
+<div class="paragraph"><strong>Spring Awakening - First National Tour - 31 October 2009</strong><br /><span style="text-decoration: underline;">Format</span>: m4a (TRACKED)&nbsp;[110.71 MB]​<br /><span style="text-decoration: underline;">Cast</span>: Jake Epstein [Melchior Gabor], Christy Altomare [Wendla Bergmann], Taylor Trensch [Moritz Stiefel], Steffi DiDomenicantonio [Ilse Neumann], Sarah Hunt [Martha Bessell], Andy Mientus [Hanschen Rilow], Ben Fankhauser [Ernst Robel], Chase Davidson [u/s Otto L&auml;mmermeier], Matt Shingledecker [Georg Zirschnitz], Gabrielle Garza [Anna], Kimiko Glenn [Thea Rilow], Angela Reed [The Adult Women], John Wojda [The Adult Men]</div>
+<div class="paragraph">&nbsp;</div>
+<div class="paragraph"><span style="font-weight: bold;">Spring Awakening - First National Tour - 5 November 2009</span><br /><span style="text-decoration: underline;">Format</span>: mp3 (TRACKED) [105.07 MB​]<br /><span style="text-decoration: underline;">Cast</span>: Jake Epstein [Melchior Gabor], Krystina Alabado [u/s Wendla Bergmann], Taylor Trensch [Moritz Stiefel], Steffi DiDomenicantonio [Ilse Neumann], Andy Mientus [Hanschen Rilow], Ben Fankhauser [Ernst Robel], Anthony Lee Medina [Otto L&auml;mmermeier], Matt Shingledecker [Georg Zirschnitz], Gabrielle Garza [Anna], Kimiko Glenn [Thea Rilow], Angela Reed [The Adult Women], John Wojda [The Adult Men]</div>
+<div class="paragraph">&nbsp;</div>
+<div class="paragraph"><span style="font-weight: bold;">Spring Awakening - First National Tour - 9 November 2009</span><br /><span style="text-decoration: underline;">Format</span>: mp3 (TRACKED) [115.32 MB]<br /><span style="text-decoration: underline;">Cast</span>: Jake Epstein [Melchior Gabor], Krystina Alabado [u/s Wendla Bergmann], Taylor Trensch [Moritz Stiefel], Steffi DiDomenicantonio [Ilse Neumann], Sarah Hunt [Martha Bessell], Andy Mientus [Hanschen Rilow], Ben Fankhauser [Ernst Robel], Anthony Lee Medina [Otto L&auml;mmermeier], Matt Shingledecker [Georg Zirschnitz], Gabrielle Garza [Anna], Kimiko Glenn [Thea Rilow], Angela Reed [The Adult Women], John Wojda [The Adult Men]</div>
+<div class="paragraph">&nbsp;</div>
+<div class="paragraph"><strong>Spring Awakening - First National Tour - 18 November 2009</strong><br /><span style="text-decoration: underline;">Format</span>: mp3 (TRACKED) [125.95 MB​]<br /><span style="text-decoration: underline;">Cast</span>: Jake Epstein [Melchior], Taylor Trensch [Moritz], Christy Altomare [Wendla], Steffi D [Ilse], Sarah Hunt [Martha], Kimiko Glenn [Thea], Gabrielle Garza [Anna], Anthony Lee Medina [Otto], Matt Shingledecker [Georg], Andy Mientus [Hanschen], Ben Fankhauser [Ernst], Angela Reed [Adult Women], John Wojda [Adult Men], Krystina Alabado, Justin Scott Brown, Kayla Foster, Lucas A. Wells [Ensemble]</div>
+<div class="paragraph">&nbsp;</div>
+<div class="paragraph"><strong>Spring Awakening - First National Tour - 27 November 2009</strong><br /><span style="text-decoration: underline;">Format</span>: mp3 (TRACKED) [105.25 MB]<br /><span style="text-decoration: underline;">Cast</span>: Jake Epstein [Melchior Gabor], Christy Altomare [Wendla Bergmann], Taylor Trensch [Moritz Stiefel], Steffi DiDomenicantonio [Ilse Neumann], Sarah Hunt [Martha Bessell], Andy Mientus [Hanschen Rilow], Ben Fankhauser [Ernst Robel], Anthony Lee Medina [Otto L&auml;mmermeier], Matt Shingledecker [Georg Zirschnitz], Gabrielle Garza [Anna], Kimiko Glenn [Thea Rilow], Angela Reed [The Adult Women], John Wodja [The Adult Men]</div>
+<div class="paragraph">&nbsp;</div>
+<div class="paragraph"><span style="font-weight: bold;">Spring Awakening - First National Tour - 28 November 2009</span><br /><span style="text-decoration: underline;">Format</span>: mp3 (TRACKED) [104.82 MB​]<br /><span style="text-decoration: underline;">Cast</span>: Jake Epstein [Melchior Gabor], Krystina Alabado [u/s Wendla Bergmann], Taylor Trensch [Moritz Stiefel], Steffi DiDomenicantonio [Ilse Neumann], Sarah Hunt [Martha Bessell], Andy Mientus [Hanschen Rilow], Ben Fankhauser [Ernst Robel], Anthony Lee Medina [Otto L&auml;mmermeier], Matt Shingledecker [Georg Zirschnitz], Gabrielle Garza [Anna], Kimiko Glenn [Thea Rilow], Angela Reed [The Adult Women], John Wodja [The Adult Men]</div>
+<div class="paragraph">&nbsp;</div>
+<div class="paragraph"><strong>Spring Awakening - First National Tour - 29 November 2009</strong><br /><span style="text-decoration: underline;">Format</span>: mp3 (TRACKED) [102.08 MB]<br /><span style="text-decoration: underline;">Cast</span>: Jake Epstein [Melchior Gabor], Christy Altomare [Wendla Bergmann], Taylor Trensch [Moritz Stiefel], Steffi DiDomenicantonio [Ilse Neumann], Krista Pioppi&nbsp; [u/s Martha Bessell], Andy Mientus [Hanschen Rilow], Ben Fankhauser [Ernst Robel], Anthony Lee Medina [Otto L&auml;mmermeier], Matt Shingledecker [Georg Zirschnitz], Gabrielle Garza [Anna], Kimiko Glenn [Thea Rilow], Angela Reed [The Adult Women], John Wodja [The Adult Men]</div>
+<p><strong>Spring Awakening - First National Tour - 23 January 2010 (Matinee)</strong><br /><span style="text-decoration: underline;">Format</span>: mp3 (TRACKED) [135.36 MB]<br /><span style="text-decoration: underline;">Cast</span>: Jake Epstein [Melchior Gabor], Christy Altomare [Wendla Bergmann], Taylor Trensch [Moritz Stiefel], Steffi DiDomenicantonio [Ilse Neumann], Sarah Hunt [Martha Bessell], Chase Davidson [u/s Hanschen Rilow], Ben Fankhauser [Ernst Robel], Anthony Lee Medina [Otto L&auml;mmermeier], Matt Shingledecker [Georg Zirschnitz], Gabrielle Garza [Anna], Kimiko Glenn [Thea Rilow], Angela Reed [The Adult Women], John Wodja [The Adult Men]</p>
+
+        <h2 id="owe"><br><br>off-west end</h2>
+
+<div class="paragraph"><strong>Spring Awakening - Off-West End - 23 January 2009</strong><br /><span style="text-decoration: underline;">Format</span>: mp3 (TRACKED) [208.69 MB]<br /><span style="text-decoration: underline;">Cast</span>: Aneurin Barnard [Melchior Gabor], Charlotte Wakefield [Wendla Bergmann], Richard Southgate [u/s Moritz Stiefel], Lucy May Barker [Ilse Neumann], Jamie Blackley [Hanschen Rilow], Harry McEntire [Ernst Robel], Edd Judge [Otto L&auml;mmermeier], Jos Slovick [Georg Zirschnitz], Natasha Barnes [Anna], Evelyn Hoskins [Thea Rilow], Sian Thomas [The Adult Women], Richard Cordery [The Adult Men]</div>
+<p><span style="font-weight: bold;">Spring Awakening - Off West End (Previews) - 31 January 2009 (Matinee)</span><br /><span style="text-decoration: underline;"><span style="color: #515151;">Format</span></span><span style="color: #515151;">: mp3 (TRACKED) </span>[113.81 MB]<br /><span style="text-decoration: underline;">Master</span>: toomuchlove635<br /><span style="text-decoration: underline;">Cast</span>:&nbsp;Aneurin Barnard [Melchior], Charlotte Wakefield [Wendla], Iwan Rheon [Moritz], Lucy May Barker [Ilse], Jamie Blackley [Hanschen], Harry McEntire [Ernst], Hayley Gallivan [Martha], Edd Judge [Otto], Jos Slovick [Georg], Natasha J Barnes [Anna], Evelyn Hoskins [Thea], Sian Thomas [The Adult Women], Richard Cordery [The Adult Men]<br /><span style="text-decoration: underline;">Notes</span>: Iwan's third show after missing the first batch of performances due to a back injury.</p>
+
+        <h2 id="we"><br><br>west end</h2>
+
+<div class="paragraph"><span style="font-weight: bold;">Spring Awakening - West End - 18 April 2009</span><br /><span style="text-decoration: underline;"><span style="color: #515151;">Format</span></span><span style="color: #515151;">: mp3 (TRACKED)</span> [110.6 MB]<br /><span style="text-decoration: underline;">Cast</span>:&nbsp;Aneurin Barnard [Melchior], Charlotte Wakefield [Wendla], Iwan Rheon [Moritz], Lucy May Barker [Ilse], Evelyn Hoskins [Thea], Gemma O'Duffy [u/s Anna], Hayley Gallivan [Martha], Jamie Muscato [u/s Georg], Chris Barton [u/s Otto], Richard Southgate [u/s Hanschen]<br /><span style="text-decoration: underline;">Notes</span>: Recorded from second row (listen out for Hayley Gallivan and Gemma O'Duffy's harmonies in Left Behind from right in front of us). slightly quiet in places with occasional bass overload on the loudest parts, but overall a nice clear audio. in My Junk, listen out for Gemma O'Duffy's riff on "ghost" that she apparently got in trouble for.</div>
+<div class="paragraph">&nbsp;</div>
+<div class="paragraph"><strong>Spring Awakening - West End - 15 May 2009</strong><br /><span style="text-decoration: underline;">Format</span>: mp3 (TRACKED) [109.7 MB]<br /><span style="text-decoration: underline;">Cast</span>: Aneurin Barnard [Melchior Gabor], Charlotte Wakefield [Wendla Bergmann], Richard Southgate [u/s Moritz Stiefel], Lucy May Barker [Ilse Neumann], Jamie Blackley [Hanschen Rilow], Harry McEntire [Ernst Robel], Edd Judge [Otto L&auml;mmermeier], Jos Slovick [Georg Zirschnitz], Natasha Barnes [Anna], Evelyn Hoskins [Thea Rilow], Sian Thomas [The Adult Women], Richard Cordery [The Adult Men]<br /><span style="text-decoration: underline;">Notes</span>: Some crackling/scraping overloading sound that goes on in &lsquo;Bitch of Living&rsquo; fairly continuously and reappears in &lsquo;My Junk&rsquo;, &lsquo;Totally Fucked&rsquo;, &lsquo;Word of Your Body (reprise)&rsquo; and the applause at the end - makes the audio unpleasant to listen to, would only recommend if you want to hear a Moritz u/s.</div>
+<p><span style="font-weight: bold;">Spring Awakening - West End - 23 May 2009</span><br /><span style="text-decoration: underline;">Format</span>: mp3 (TRACKED) [114 MB]<br /><span style="text-decoration: underline;">Master</span>: Maia J<br /><span style="text-decoration: underline;">Cast</span>: Aneurin Barnard [Melchior Gabor], Charlotte Wakefield [Wendla Bergmann], Iwan Rheon [Moritz Stiefel], Lucy May Barker [Ilse Neumann], Hayley Gallivan [Martha Bessell], Jamie Blackley [Hanschen Rilow], Jamie Muscato [u/s Ernst Robel], Edd Judge [Otto L&auml;mmermeier], Jos Slovick [Georg Zirschnitz], Natasha J Barnes [Anna], Evelyn Hoskins [Thea Rilow], Sian Thomas [The Adult Women], Richard Cordery [The Adult Men], Gemma O'Duffy, Natalie Garner, Richard Southgate<br /><span style="text-decoration: underline;">Notes</span>: Recorded from front row stalls.</p>
+
+
+        <h2 id="jp"><br><br>japan (shiki theatre company)</h2>
+
+<p><span style="font-weight: bold;">Spring Awakening - Japan (Shiki Theatre Company) - 4 July 2009</span><br /><span style="text-decoration: underline;">Format</span>: mp3 (UNTRACKED) [110 MB]<br /><span style="text-decoration: underline;">Cast</span>: Hayato Kakizawa [Melchior Gabor], Kasumi Hayashi [Wendla Bergmann], Hajime Mikumo [Moritz Stiefel], Maya Kanehira [Ilse Neumann], Hitomi Musa [Martha Bessell], Yosuke Ichiwa [Hanschen Rilow], Kazuki Takeuchi [Ernst Robel], Susumu Kato [Otto L&auml;mmermeier], Hidenori Shirase [Georg Zirschnitz], Yuko Matta [Anna], Mikiko Arimura [Thea Rilow]</p>
+
+        <h2 id="2nt"><br><br>second national tour</h2>
+
+<p><span style="font-weight: bold;">Spring Awakening - Second National Tour (Los Angeles) - 12 February 2011</span><br /><span style="text-decoration: underline;">Format</span>: mp3 (TRACKED) [113.17 MB]<br /><span style="text-decoration: underline;">Cast</span>:&nbsp;Christopher Wood [Melchior], Elizabeth Judd [Wendla], Coby Getzug [Moritz], Courtney Markowitz [Ilse], Jim Hogan [Georg], Aliyah Bowles [Martha], Rachel Geisler [Anna], Emily Mest [Thea], George Salazar [Otto], Devon Stone [Hanschen], Daniel Plimpton [Ernst], Sarah Kleeman [The Adult Women], Mark Poppleton [The Adult Men]</p>
+
+        <h2 id="rt"><br><br>rosenthal theatre</h2>
+        
+        <p><strong>Spring Awakening - Rosenthal Theatre - 11 October 2014</strong><br /><span style="text-decoration: underline;">Format</span>: mp3 (TRACKED) [113.29 MB]<br /><span style="text-decoration: underline;">Cast</span>: Austin McKenzie [Melchior Gabor], Sandra Mae Frank [Wendla Bergmann], Katie Boeck [Voice of Wendla], Daniel N Durant [Moritz Stiefel], Rustin Cole Sailors [Voice of Moritz], Lauren Patten [Ilse Neumann], Treshelle Edmond [Martha Bessell], Kathryn Gallagher [Voice of Martha], Joseph Haro [Hanschen Rilow], Joshua Castille [Ernst Robel], Daniel David Stewart [Voice of Ernst], Miles Barbee [Otto L&auml;mmermeier], Sean Grandillo [Voice of Otto], Jimmy Bellinger [Georg Zirschnitz], Ali Stroker [Anna], Amelia Hensley [Thea Rilow], Gabrielle Garza [u/s Melitta Rilow / Voice of Thea], Alexandra Winter [Greta Brandenburg], Hillary Baack [The Adult Women], Natacha Roi [Voice of Adult Women], Troy Kotsur [The Adult Men], Daniel Marmion [Voice of Adult Men]<br /><span style="text-decoration: underline;">Notes</span>: Gabrielle&rsquo;s Voice of Thea debut.</p>
+        
+        <h2 id="wallis"><br><br>wallis annenberg center for the performing arts</h2>
+
+<div class="paragraph"><span style="font-weight: bold;">Spring Awakening - Wallis Annenberg (Beverly Hills) - 23 May 2015 (Matinee)</span><br /><span style="text-decoration: underline;">Format</span>: mp3 (TRACKED) [117.08 MB]<br /><span style="text-decoration: underline;">Cast</span>: Austin McKenzie [Melchior Gabor], Sandra Mae Frank [Wendla Bergmann], Katie Boeck [Voice of Wendla], Daniel N Durant [Moritz Stiefel], Alex Boniello [Voice of Moritz], Krysta Rodriguez [Ilse Neumann], Treshelle Edmond [Martha Bessell], Kathryn Gallagher [Voice of Martha], Andy Mientus [Hanschen Rilow], Joshua Castille [Ernst Robel], Daniel David Stewart [Voice of Ernst], Miles Barbee [Otto L&auml;mmermeier], Sean Grandillo [Voice of Otto], Alex Wyse [Georg Zirschnitz], Ali Stroker [Anna], Amelia Hensley [Thea Rilow], Lauren Luiz [Melitta Rilow / Voice of Thea], Alexandra Winter [Greta Brandenburg], Hillary Baack [The Adult Women], Natacha Roi [Voice of Adult Women], Howie Seago [The Adult Men], Daniel Marmion [Voice of Adult Men]</div>
+<div class="paragraph">&nbsp;</div>
+<div class="paragraph"><span style="font-weight: bold;">Spring Awakening - Wallis Annenberg (Beverly Hills) - 30 May 2015 (Matinee)</span><br /><span style="text-decoration: underline;">Format</span>: mp3 (UNTRACKED) [173.98 MB]<br /><span style="text-decoration: underline;">Cast</span>: Austin McKenzie [Melchior Gabor], Sandra Mae Frank [Wendla Bergmann], Katie Boeck [Voice of Wendla], Daniel N Durant [Moritz Stiefel], Alex Boniello [Voice of Moritz], Krysta Rodriguez [Ilse Neumann], Treshelle Edmond [Martha Bessell], Kathryn Gallagher [Voice of Martha], Andy Mientus [Hanschen Rilow], Joshua Castille [Ernst Robel], Daniel David Stewart [Voice of Ernst], Miles Barbee [Otto L&auml;mmermeier], Sean Grandillo [Voice of Otto], Alex Wyse [Georg Zirschnitz], Ali Stroker [Anna], Amelia Hensley [Thea Rilow], Lauren Luiz [Melitta Rilow / Voice of Thea], Alexandra Winter [Greta Brandenburg], Hillary Baack [The Adult Women], Natacha Roi [Voice of Adult Women], Howie Seago [The Adult Men], Daniel Marmion [Voice of Adult Men]</div>
+<div class="paragraph">&nbsp;</div>
+<div class="paragraph"><span style="font-weight: bold;">Spring Awakening - Wallis Annenberg (Beverly Hills) - 6 June 2015 (Matinee)</span><br /><span style="text-decoration: underline;">Format</span>: mp3 (TRACKED) [172.87 MB]<br /><span style="text-decoration: underline;">Cast</span>: Austin McKenzie [Melchior Gabor], Sandra Mae Frank [Wendla Bergmann], Katie Boeck [Voice of Wendla], Daniel N Durant [Moritz Stiefel], Alex Boniello [Voice of Moritz], Krysta Rodriguez [Ilse Neumann], Treshelle Edmond [Martha Bessell], Kathryn Gallagher [Voice of Martha], Andy Mientus [Hanschen Rilow], Joshua Castille [Ernst Robel], Daniel David Stewart [Voice of Ernst], Miles Barbee [Otto L&auml;mmermeier], Sean Grandillo [Voice of Otto], Alex Wyse [Georg Zirschnitz], Ali Stroker [Anna], Amelia Hensley [Thea Rilow], Lauren Luiz [Melitta Rilow / Voice of Thea], Alexandra Winter [Greta Brandenburg], Hillary Baack [The Adult Women], Natacha Roi [Voice of Adult Women], Howie Seago [The Adult Men], Daniel Marmion [Voice of Adult Men]</div>
+<p><span style="font-weight: bold;">Spring Awakening - Wallis Annenberg (Beverly Hills) - 14 June 2015</span><br /><span style="text-decoration: underline;">Format</span>: mp3 (TRACKED) [173.55 MB]<br /><span style="text-decoration: underline;">Cast</span>: Austin McKenzie [Melchior Gabor], Sandra Mae Frank [Wendla Bergmann], Katie Boeck [Voice of Wendla], Daniel N Durant [Moritz Stiefel], Alex Boniello [Voice of Moritz], Krysta Rodriguez [Ilse Neumann], Treshelle Edmond [Martha Bessell], Kathryn Gallagher [Voice of Martha], Andy Mientus [Hanschen Rilow], Joshua Castille [Ernst Robel], Daniel David Stewart [Voice of Ernst], Miles Barbee [Otto L&auml;mmermeier], Sean Grandillo [Voice of Otto], Alex Wyse [Georg Zirschnitz], Ali Stroker [Anna], Amelia Hensley [Thea Rilow], Lauren Luiz [Melitta Rilow / Voice of Thea], Alexandra Winter [Greta Brandenburg], Hillary Baack [The Adult Women], Natacha Roi [Voice of Adult Women], Howie Seago [The Adult Men], Daniel Marmion [Voice of Adult Men]</p>
+
+        <h2 id="br"><br><br>broadway revival</h2>
+
+<div class="paragraph"><span style="font-weight: bold;">Spring Awakening - Broadway Revival - 6 September 2015</span><br /><span style="text-decoration: underline;">Format</span>: mp3 (UNTRACKED) [51.3 MB​]<br /><span style="text-decoration: underline;">Cast</span>: Austin McKenzie [Melchior Gabor], Sandra Mae Frank [Wendla Bergmann], Katie Boeck [Voice of Wendla], Daniel N Durant [Moritz Stiefel], Alex Boniello [Voice of Moritz], Krysta Rodriguez [Ilse Neumann], Treshelle Edmond [Martha Bessell], Kathryn Gallagher [Voice of Martha], Andy Mientus [Hanschen Rilow], Joshua Castille [Ernst Robel], Daniel David Stewart [Voice of Ernst], Miles Barbee [Otto L&auml;mmermeier], Sean Grandillo [Voice of Otto], Alex Wyse [Georg Zirschnitz], Ali Stroker [Anna], Amelia Hensley [Thea Rilow], Lauren Luiz [Melitta Rilow / Voice of Thea], Alexandra Winter [Greta Brandenburg], Marlee Matlin [The Adult Women], Camryn Manheim [Voice of Adult Women], Russell Harvard [The Adult Men], Patrick Page [Voice of Adult Men]<br /><span style="text-decoration: underline;">Notes</span>: Invited Dress Rehearsal ACT 2 ONLY</div>
+<div class="paragraph">&nbsp;</div>
+<div class="paragraph"><span style="font-weight: bold;">Spring Awakening - Broadway Revival - 8 September 2015</span><br /><span style="text-decoration: underline;">Format</span>: mp3 (TRACKED) [116.11 MB​]<br /><span style="text-decoration: underline;">Cast</span>: Austin McKenzie [Melchior Gabor], Sandra Mae Frank [Wendla Bergmann], Katie Boeck [Voice of Wendla], Daniel N Durant [Moritz Stiefel], Alex Boniello [Voice of Moritz], Krysta Rodriguez [Ilse Neumann], Treshelle Edmond [Martha Bessell], Kathryn Gallagher [Voice of Martha], Andy Mientus [Hanschen Rilow], Joshua Castille [Ernst Robel], Daniel David Stewart [Voice of Ernst], Miles Barbee [Otto L&auml;mmermeier], Sean Grandillo [Voice of Otto], Alex Wyse [Georg Zirschnitz], Ali Stroker [Anna], Amelia Hensley [Thea Rilow], Lauren Luiz [Melitta Rilow / Voice of Thea], Alexandra Winter [Greta Brandenburg], Marlee Matlin [The Adult Women], Camryn Manheim [Voice of Adult Women], Russell Harvard [The Adult Men], Patrick Page [Voice of Adult Men]<br /><span style="text-decoration: underline;">Notes</span>: First preview on Broadway</div>
+<div class="paragraph">&nbsp;</div>
+<div class="paragraph"><span style="font-weight: bold;">Spring Awakening - Broadway Revival - 12 September 2015 (Matinee)</span><br /><span style="text-decoration: underline;">Format</span>: mp3 (TRACKED) [73.67 MB​]<br /><span style="text-decoration: underline;">Cast</span>: Austin McKenzie [Melchior Gabor], Sandra Mae Frank [Wendla Bergmann], Katie Boeck [Voice of Wendla], Daniel N Durant [Moritz Stiefel], Alex Boniello [Voice of Moritz], Krysta Rodriguez [Ilse Neumann], Treshelle Edmond [Martha Bessell], Kathryn Gallagher [Voice of Martha], Andy Mientus [Hanschen Rilow], Joshua Castille [Ernst Robel], Daniel David Stewart [Voice of Ernst], Miles Barbee [Otto L&auml;mmermeier], Sean Grandillo [Voice of Otto], Alex Wyse [Georg Zirschnitz], Ali Stroker [Anna], Amelia Hensley [Thea Rilow], Lauren Luiz [Melitta Rilow / Voice of Thea], Alexandra Winter [Greta Brandenburg], Marlee Matlin [The Adult Women], Camryn Manheim [Voice of Adult Women], Russell Harvard [The Adult Men], Patrick Page [Voice of Adult Men]</div>
+<div class="paragraph">&nbsp;</div>
+<div class="paragraph"><span style="font-weight: bold;">Spring Awakening - Broadway Revival - 13 September 2015</span><br /><span style="text-decoration: underline;">Format</span>: mp3 (UNTRACKED) [171.08 MB​]<br /><span style="text-decoration: underline;">Master</span>: Euphorianger<br /><span style="text-decoration: underline;">Cast</span>: Austin McKenzie [Melchior Gabor], Sandra Mae Frank [Wendla Bergmann], Katie Boeck [Voice of Wendla], Daniel N Durant [Moritz Stiefel], Alex Boniello [Voice of Moritz], Krysta Rodriguez [Ilse Neumann], Treshelle Edmond [Martha Bessell], Kathryn Gallagher [Voice of Martha], Andy Mientus [Hanschen Rilow], Joshua Castille [Ernst Robel], Daniel David Stewart [Voice of Ernst], Miles Barbee [Otto L&auml;mmermeier], Sean Grandillo [Voice of Otto], Alex Wyse [Georg Zirschnitz], Ali Stroker [Anna], Amelia Hensley [Thea Rilow], Lauren Luiz [Melitta Rilow / Voice of Thea], Alexandra Winter [Greta Brandenburg], Marlee Matlin [The Adult Women], Camryn Manheim [Voice of Adult Women], Russell Harvard [The Adult Men], Patrick Page [Voice of Adult Men]</div>
+<div class="paragraph">&nbsp;</div>
+<div class="paragraph"><span style="font-weight: bold;">Spring Awakening - Broadway Revival - 15 September 2015</span><br /><span style="text-decoration: underline;">Format</span>: mp3 (UNTRACKED) [144.47 MB​]<br /><span style="text-decoration: underline;">Cast</span>: Austin McKenzie [Melchior Gabor], Sandra Mae Frank [Wendla Bergmann], Katie Boeck [Voice of Wendla], Daniel N Durant [Moritz Stiefel], Alex Boniello [Voice of Moritz], Krysta Rodriguez [Ilse Neumann], Treshelle Edmond [Martha Bessell], Kathryn Gallagher [Voice of Martha], Andy Mientus [Hanschen Rilow], Joshua Castille [Ernst Robel], Van Hughes [u/s Voice of Ernst], Miles Barbee [Otto L&auml;mmermeier], Sean Grandillo [Voice of Otto], Alex Wyse [Georg Zirschnitz], Ali Stroker [Anna], Amelia Hensley [Thea Rilow], Lauren Luiz [Melitta Rilow / Voice of Thea], Alexandra Winter [Greta Brandenburg], Marlee Matlin [The Adult Women], Camryn Manheim [Voice of Adult Women], Russell Harvard [The Adult Men], Patrick Page [Voice of Adult Men]</div>
+<div class="paragraph">&nbsp;</div>
+<div class="paragraph"><span style="font-weight: bold;">Spring Awakening - Broadway Revival - 17 September 2015</span><br /><span style="text-decoration: underline;">Format</span>: mp3 (TRACKED)&nbsp;[116.32 MB]​<br /><span style="text-decoration: underline;">Cast</span>: Austin McKenzie [Melchior Gabor], Sandra Mae Frank [Wendla Bergmann], Katie Boeck [Voice of Wendla], Daniel N Durant [Moritz Stiefel], Alex Boniello [Voice of Moritz], Krysta Rodriguez [Ilse Neumann], Treshelle Edmond [Martha Bessell], Kathryn Gallagher [Voice of Martha], Andy Mientus [Hanschen Rilow], Joshua Castille [Ernst Robel], Daniel David Stewart [Voice of Ernst], Miles Barbee [Otto L&auml;mmermeier], Sean Grandillo [Voice of Otto], Alex Wyse [Georg Zirschnitz], Ali Stroker [Anna], Amelia Hensley [Thea Rilow], Lauren Luiz [Melitta Rilow / Voice of Thea], Alexandra Winter [Greta Brandenburg], Marlee Matlin [The Adult Women], Camryn Manheim [Voice of Adult Women], Russell Harvard [The Adult Men], Patrick Page [Voice of Adult Men]</div>
+<div class="paragraph">&nbsp;</div>
+<div class="paragraph"><span style="font-weight: bold;">Spring Awakening - Broadway Revival - 20 September 2015</span><br /><span style="text-decoration: underline;">Format</span>: mp3 (TRACKED) [233.83 MB]<br /><span style="text-decoration: underline;">Master</span>: playbill-love<br /><span style="text-decoration: underline;">Cast</span>: Austin McKenzie [Melchior Gabor], Sandra Mae Frank [Wendla Bergmann], Katie Boeck [Voice of Wendla], Daniel N Durant [Moritz Stiefel], Alex Boniello [Voice of Moritz], Krysta Rodriguez [Ilse Neumann], Treshelle Edmond [Martha Bessell], Kathryn Gallagher [Voice of Martha], Andy Mientus [Hanschen Rilow], Joshua Castille [Ernst Robel], Van Hughes [u/s Voice of Ernst], Miles Barbee [Otto L&auml;mmermeier], Sean Grandillo [Voice of Otto], Alex Wyse [Georg Zirschnitz], Ali Stroker [Anna], Amelia Hensley [Thea Rilow], Lauren Luiz [Melitta Rilow / Voice of Thea], Alexandra Winter [Greta Brandenburg], Alexandra Wailes [u/s The Adult Women], Camryn Manheim [Voice of Adult Women], Russell Harvard [The Adult Men], Patrick Page [Voice of Adult Men]</div>
+<div class="paragraph">&nbsp;</div>
+<div class="paragraph"><span style="font-weight: bold;">Spring Awakening - Broadway Revival - 27 September 2015 (Matinee)</span><br /><span style="text-decoration: underline;">Format</span>: mp3 (TRACKED)<br /><span style="text-decoration: underline;">Master</span>: HBCFG<br /><span style="text-decoration: underline;">Cast</span>: Austin McKenzie [Melchior Gabor], Sandra Mae Frank [Wendla Bergmann], Katie Boeck [Voice of Wendla], Daniel N Durant [Moritz Stiefel], Alex Boniello [Voice of Moritz], Krysta Rodriguez [Ilse Neumann], Treshelle Edmond [Martha Bessell], Kathryn Gallagher [Voice of Martha], Andy Mientus [Hanschen Rilow], Joshua Castille [Ernst Robel], Van Hughes [u/s Voice of Ernst], Miles Barbee [Otto L&auml;mmermeier], Sean Grandillo [Voice of Otto], Alex Wyse [Georg Zirschnitz], Ali Stroker [Anna], Amelia Hensley [Thea Rilow], Lauren Luiz [Melitta Rilow / Voice of Thea], Alexandra Winter [Greta Brandenburg], Marlee Matlin [The Adult Women], Camryn Manheim [Voice of Adult Women], Russell Harvard [The Adult Men], Patrick Page [Voice of Adult Men]</div>
+<div class="paragraph">&nbsp;</div>
+<div class="paragraph"><span style="font-weight: bold;">Spring Awakening - Broadway Revival - 5 October 2015<br /></span><span style="text-decoration: underline;">Format</span>: mp3 (TRACKED) <br /><span style="text-decoration: underline;">Cast</span>: Austin McKenzie [Melchior Gabor], Sandra Mae Frank [Wendla Bergmann], Katie Boeck [Voice of Wendla], Daniel N Durant [Moritz Stiefel], Alex Boniello [Voice of Moritz], Krysta Rodriguez [Ilse Neumann], Treshelle Edmond [Martha Bessell], Kathryn Gallagher [Voice of Martha], Robert Ariza [u/s Hanschen Rilow], Joshua Castille [Ernst Robel], Daniel David Stewart [Voice of Ernst], Miles Barbee [Otto L&auml;mmermeier], Sean Grandillo [Voice of Otto], Alex Wyse [Georg Zirschnitz], Ali Stroker [Anna], Amelia Hensley [Thea Rilow], Lauren Luiz [Melitta Rilow / Voice of Thea], Alexandra Winter [Greta Brandenburg], Marlee Matlin [The Adult Women], Camryn Manheim [Voice of Adult Women], Russell Harvard [The Adult Men], Patrick Page [Voice of Adult Men] <br /><span style="text-decoration: underline;">Notes</span>: Robert Ariza's Hanschen debut.</div>
+<div class="paragraph">&nbsp;</div>
+<div class="paragraph"><span style="font-weight: bold;">Spring Awakening - Broadway Revival - 11 October 2015 (Matinee)<br /></span><span style="text-decoration: underline;">Format</span>: wav (TRACKED)<br /><span style="text-decoration: underline;">Master</span>: sarcasticstagemanager<br /><span style="text-decoration: underline;">Cast</span>: Austin McKenzie [Melchior Gabor], Sandra Mae Frank [Wendla Bergmann], Katie Boeck [Voice of Wendla], Daniel N Durant [Moritz Stiefel], Alex Boniello [Voice of Moritz], Krysta Rodriguez [Ilse Neumann], Treshelle Edmond [Martha Bessell], Kathryn Gallagher [Voice of Martha], Andy Mientus [Hanschen Rilow], Joshua Castille [Ernst Robel], Daniel David Stewart [Voice of Ernst], Miles Barbee [Otto L&auml;mmermeier], Sean Grandillo [Voice of Otto], Alex Wyse [Georg Zirschnitz], Ali Stroker [Anna], Amelia Hensley [Thea Rilow], Lauren Luiz [Melitta Rilow / Voice of Thea], Alexandra Winter [Greta Brandenburg], Marlee Matlin [The Adult Women], Camryn Manheim [Voice of Adult Women], Russell Harvard [The Adult Men], Patrick Page [Voice of Adult Men]</div>
+<div class="paragraph">&nbsp;</div>
+<div class="paragraph"><span style="font-weight: bold;">Spring Awakening - Broadway Revival- 13 October 2015<br /></span><span style="text-decoration: underline;">Format</span>: mp3 (TRACKED) <br /><span style="text-decoration: underline;">Cast</span>: Austin McKenzie [Melchior Gabor], Sandra Mae Frank [Wendla Bergmann], Lizzy Cuesta [u/s Voice of Wendla], Daniel N Durant [Moritz Stiefel], Alex Boniello [Voice of Moritz], Krysta Rodriguez [Ilse Neumann], Treshelle Edmond [Martha Bessell], Kathryn Gallagher [Voice of Martha], Andy Mientus [Hanschen Rilow], Joshua Castille [Ernst Robel], Daniel David Stewart [Voice of Ernst], Miles Barbee [Otto L&auml;mmermeier], Sean Grandillo [Voice of Otto], Alex Wyse [Georg Zirschnitz], Ali Stroker [Anna], Amelia Hensley [Thea Rilow], Lauren Luiz [Melitta Rilow / Voice of Thea], Alexandra Winter [Greta Brandenburg], Marlee Matlin [The Adult Women], Camryn Manheim [Voice of Adult Women], Russell Harvard [The Adult Men], Patrick Page [Voice of Adult Men]</div>
+<div class="paragraph">&nbsp;</div>
+<div class="paragraph"><span style="font-weight: bold;">Spring Awakening - Broadway Revival - 24 October 2015 (Matinee)<br /></span><span style="text-decoration: underline;">Format</span>: mp3 (UNTRACKED)<br /><span style="text-decoration: underline;">Master</span>: sarcasticstagemanager<br /><span style="text-decoration: underline;">Cast</span>: Austin McKenzie [Melchior Gabor], Sandra Mae Frank [Wendla Bergmann], Katie Boeck [Voice of Wendla], Daniel N Durant [Moritz Stiefel], Alex Boniello [Voice of Moritz], Krysta Rodriguez [Ilse Neumann], Treshelle Edmond [Martha Bessell], Kathryn Gallagher [Voice of Martha], Andy Mientus [Hanschen Rilow], Joshua Castille [Ernst Robel], Daniel David Stewart [Voice of Ernst], Miles Barbee [Otto L&auml;mmermeier], Sean Grandillo [Voice of Otto], Alex Wyse [Georg Zirschnitz], Ali Stroker [Anna], Amelia Hensley [Thea Rilow], Lauren Luiz [Melitta Rilow / Voice of Thea], Alexandra Winter [Greta Brandenburg], Marlee Matlin [The Adult Women], Camryn Manheim [Voice of Adult Women], Russell Harvard [The Adult Men], Patrick Page [Voice of Adult Men]</div>
+<div class="paragraph">&nbsp;</div>
+<div class="paragraph"><span style="font-weight: bold;">Spring Awakening - Broadway Revival - 25 October 2015<br /></span><span style="text-decoration: underline;">Format</span>: mp3 (UNTRACKED) <br /><span style="text-decoration: underline;">Master</span>: sarcasticstagemanager <br /><span style="text-decoration: underline;">Cast</span>: Austin McKenzie [Melchior Gabor], Sandra Mae Frank [Wendla Bergmann], Katie Boeck [Voice of Wendla], Daniel N Durant [Moritz Stiefel], Alex Boniello [Voice of Moritz], Krysta Rodriguez [Ilse Neumann], Treshelle Edmond [Martha Bessell], Kathryn Gallagher [Voice of Martha], Andy Mientus [Hanschen Rilow], Joshua Castille [Ernst Robel], Daniel David Stewart [Voice of Ernst], Miles Barbee [Otto L&auml;mmermeier], Sean Grandillo [Voice of Otto], Alex Wyse [Georg Zirschnitz], Ali Stroker [Anna], Amelia Hensley [Thea Rilow], Lauren Luiz [Melitta Rilow / Voice of Thea], Alexandra Winter [Greta Brandenburg], Marlee Matlin [The Adult Women], Camryn Manheim [Voice of Adult Women], Russell Harvard [The Adult Men], Patrick Page [Voice of Adult Men]</div>
+<div class="paragraph">&nbsp;</div>
+<div class="paragraph"><span style="font-weight: bold;">Spring Awakening - Broadway revival &ndash; 26 October 2015</span> <br /><span style="text-decoration: underline;">Format</span>: mp3 (TRACKED)<br /><span style="text-decoration: underline;">Cast</span>:&nbsp;Austin McKenzie [Melchior], Sandra Mae Frank [Wendla], Katie Boeck [Voice of Wendla], Daniel N Durant [Moritz], Alex Boniello [Voice of Moritz], Lauren Luiz [u/s Ilse], Andy Mientus [Hanschen], Joshua Castille [Ernst], Daniel David Stewart [Voice of Ernst], Treshelle Edmond [Martha], Kathryn Gallagher [Voice of Martha], Miles Barbee [Otto], Sean Grandillo [Voice of Otto], Alex Wyse [Georg], Ali Stroker [Anna], Amelia Hensley [Thea], Alexandra Winter [u/s Melitta/Voice of Thea], Lizzy Cuesta [u/s Greta], Alexandria Wailes [u/s The Adult Women], Camryn Manheim [Voice of Adult Women], Russell Harvard [The Adult Men], Patrick Page [Voice of Adult Men] <br /><span style="text-decoration: underline;">Notes</span>: Lauren Luiz&rsquo;s first performance as Ilse, Alexandra Winter&rsquo;s first performance as Voice of Thea/Melitta.</div>
+<div class="paragraph">&nbsp;</div>
+<div class="paragraph"><span style="font-weight: bold;">Spring Awakening - Broadway Revival - 8 November 2015<br /></span><span style="text-decoration: underline;">Format</span>: mp3 (UNTRACKED)<br /><span style="text-decoration: underline;">Cast</span>: Austin McKenzie [Melchior Gabor], Sandra Mae Frank [Wendla Bergmann], Katie Boeck [Voice of Wendla], Daniel N Durant [Moritz Stiefel], Alex Boniello [Voice of Moritz], Krysta Rodriguez [Ilse Neumann], Treshelle Edmond [Martha Bessell], Kathryn Gallagher [Voice of Martha], Andy Mientus [Hanschen Rilow], Joshua Castille [Ernst Robel], Daniel David Stewart [Voice of Ernst], Miles Barbee [Otto L&auml;mmermeier], Sean Grandillo [Voice of Otto], Alex Wyse [Georg Zirschnitz], Ali Stroker [Anna], Amelia Hensley [Thea Rilow], Lauren Luiz [Melitta Rilow / Voice of Thea], Alexandra Winter [Greta Brandenburg], Marlee Matlin [The Adult Women], Camryn Manheim [Voice of Adult Women], Russell Harvard [The Adult Men], Patrick Page [Voice of Adult Men]<br /><span style="text-decoration: underline;">Notes</span>: Includes a BC/EFA speech by Krysta and Ali</div>
+<div class="paragraph">&nbsp;</div>
+<div class="paragraph"><span style="font-weight: bold;">Spring Awakening - Broadway Revival - 9 November 2015<br /></span><span style="text-decoration: underline;">Format</span>: mp3 (UNTRACKED)<br /><span style="text-decoration: underline;">Master</span>: SpanishBabiesCry<br /><span style="text-decoration: underline;">Cast</span>: Austin McKenzie [Melchior Gabor], Sandra Mae Frank [Wendla Bergmann], Katie Boeck [Voice of Wendla], Daniel N Durant [Moritz Stiefel], Alex Boniello [Voice of Moritz], Krysta Rodriguez [Ilse Neumann], Treshelle Edmond [Martha Bessell], Kathryn Gallagher [Voice of Martha], Andy Mientus [Hanschen Rilow], Joshua Castille [Ernst Robel], Daniel David Stewart [Voice of Ernst], Miles Barbee [Otto L&auml;mmermeier], Sean Grandillo [Voice of Otto], Alex Wyse [Georg Zirschnitz], Ali Stroker [Anna], Amelia Hensley [Thea Rilow], Lauren Luiz [Melitta Rilow / Voice of Thea], Alexandra Winter [Greta Brandenburg], Marlee Matlin [The Adult Women], Camryn Manheim [Voice of Adult Women], Russell Harvard [The Adult Men], Patrick Page [Voice of Adult Men]</div>
+<div class="paragraph">&nbsp;</div>
+<div class="paragraph"><span style="font-weight: bold;">&nbsp;Spring Awakening - Broadway Revival - 14 November 2015 (Matinee)</span><br /><span style="text-decoration: underline;">Format</span>: mp3 (UNTRACKED)<br /><span style="text-decoration: underline;">Cast</span>: Austin McKenzie [Melchior Gabor], Sandra Mae Frank [Wendla Bergmann], Katie Boeck [Voice of Wendla], Daniel N Durant [Moritz Stiefel], Alex Boniello [Voice of Moritz], Krysta Rodriguez [Ilse Neumann], Treshelle Edmond [Martha Bessell], Kathryn Gallagher [Voice of Martha], Andy Mientus [Hanschen Rilow], Joshua Castille [Ernst Robel], Daniel David Stewart [Voice of Ernst], Miles Barbee [Otto L&auml;mmermeier], Sean Grandillo [Voice of Otto], Alex Wyse [Georg Zirschnitz], Ali Stroker [Anna], Amelia Hensley [Thea Rilow], Lauren Luiz [Melitta Rilow / Voice of Thea], Alexandra Winter [Greta Brandenburg], Marlee Matlin [The Adult Women], Camryn Manheim [Voice of Adult Women], Russell Harvard [The Adult Men], Patrick Page [Voice of Adult Men]<br /><span style="text-decoration: underline;">Notes</span>: Includes a BC/EFA speech by Krysta Rodriguez and Ali Stroker&nbsp;​(with Joshua Castille signing)</div>
+<div class="paragraph">&nbsp;</div>
+<div class="paragraph"><span style="font-weight: bold;">Spring Awakening - Broadway Revival - 20 December 2015 (Matinee)<br /></span><span style="text-decoration: underline;">Format</span>: m4a (UNTRACKED) <br /><span style="text-decoration: underline;">Master</span>: ethan231h <br /><span style="text-decoration: underline;">Cast</span>: Austin McKenzie [Melchior Gabor], Sandra Mae Frank [Wendla Bergmann], Katie Boeck [Voice of Wendla], Daniel N Durant [Moritz Stiefel], Alex Boniello [Voice of Moritz], Krysta Rodriguez [Ilse Neumann], Treshelle Edmond [Martha Bessell], Kathryn Gallagher [Voice of Martha], Andy Mientus [Hanschen Rilow], Joshua Castille [Ernst Robel], Daniel David Stewart [Voice of Ernst], Miles Barbee [Otto L&auml;mmermeier], Sean Grandillo [Voice of Otto], Alex Wyse [Georg Zirschnitz], Ali Stroker [Anna], Amelia Hensley [Thea Rilow], Lauren Luiz [Melitta Rilow / Voice of Thea], Alexandra Winter [Greta Brandenburg], Marlee Matlin [The Adult Women], Camryn Manheim [Voice of Adult Women], Russell Harvard [The Adult Men], Patrick Page [Voice of Adult Men]</div>
+<div class="paragraph">&nbsp;</div>
+<div class="paragraph"><span style="font-weight: bold;">Spring Awakening - Broadway Revival - 10 January 2016</span><br /><span style="text-decoration: underline;">Format</span>: mp3 (TRACKED) <br /><span style="text-decoration: underline;">Cast</span>: Austin McKenzie [Melchior Gabor], Sandra Mae Frank [Wendla Bergmann], Katie Boeck [Voice of Wendla], Daniel N Durant [Moritz Stiefel], Alex Boniello [Voice of Moritz], Krysta Rodriguez [Ilse Neumann], Treshelle Edmond [Martha Bessell], Kathryn Gallagher [Voice of Martha], Andy Mientus [Hanschen Rilow], Joshua Castille [Ernst Robel], Daniel David Stewart [Voice of Ernst], Miles Barbee [Otto L&auml;mmermeier], Sean Grandillo [Voice of Otto], Alex Wyse [Georg Zirschnitz], Ali Stroker [Anna], Amelia Hensley [Thea Rilow], Lauren Luiz [Melitta Rilow / Voice of Thea], Alexandra Winter [Greta Brandenburg], Marlee Matlin [The Adult Women], Camryn Manheim [Voice of Adult Women], Russell Harvard [The Adult Men], Patrick Page [Voice of Adult Men] <br /><span style="text-decoration: underline;">Notes</span>: Marlee Matlin's final performance. Includes her speech at the end of the show.</div>
+<div class="paragraph">&nbsp;</div>
+<div class="paragraph"><strong>Spring Awakening - Broadway Revival - 11 January 2016</strong><br /><span style="text-decoration: underline;">Format</span>: m4a (UNTRACKED)<br /><span style="text-decoration: underline;">Cast</span>: Austin McKenzie [Melchior Gabor], Sandra Mae Frank [Wendla Bergmann], Katie Boeck [Voice of Wendla], Daniel N Durant [Moritz Stiefel], Alex Boniello [Voice of Moritz], Krysta Rodriguez [Ilse Neumann], Treshelle Edmond [Martha Bessell], Kathryn Gallagher [Voice of Martha], Andy Mientus [Hanschen Rilow], Joshua Castille [Ernst Robel], Daniel David Stewart [Voice of Ernst], Miles Barbee [Otto L&auml;mmermeier], Sean Grandillo [Voice of Otto], Alex Wyse [Georg Zirschnitz], Ali Stroker [Anna], Amelia Hensley [Thea Rilow], Lauren Luiz [Melitta Rilow / Voice of Thea], Alexandra Winter [Greta Brandenburg], Marlee Matlin [The Adult Women], Camryn Manheim [Voice of Adult Women], Russell Harvard [The Adult Men], Patrick Page [Voice of Adult Men]</div>
+<div class="paragraph">&nbsp;</div>
+<div class="paragraph"><span style="font-weight: bold;">Spring Awakening - Broadway Revival - 16 January 2016 (Matinee)<br /></span><span style="text-decoration: underline;">Format</span>: mp3 (UNTRACKED) <br /><span style="text-decoration: underline;">Master</span>: Autistic Jellicle Cat <br /><span style="text-decoration: underline;">Cast</span>: Austin McKenzie [Melchior Gabor], Sandra Mae Frank [Wendla Bergmann], Katie Boeck [Voice of Wendla], Daniel N Durant [Moritz Stiefel], Alex Boniello [Voice of Moritz], Krysta Rodriguez [Ilse Neumann], Treshelle Edmond [Martha Bessell], Kathryn Gallagher [Voice of Martha], Andy Mientus [Hanschen Rilow], Joshua Castille [Ernst Robel], Daniel David Stewart [Voice of Ernst], Miles Barbee [Otto L&auml;mmermeier], Sean Grandillo [Voice of Otto], Alex Wyse [Georg Zirschnitz], Ali Stroker [Anna], Amelia Hensley [Thea Rilow], Lauren Luiz [Melitta Rilow / Voice of Thea], Alexandra Winter [Greta Brandenburg], Alexandria Wailes [The Adult Women], Elizabeth Greene [Voice of Adult Women], Russell Harvard [The Adult Men], Patrick Page [Voice of Adult Men]</div>
+<div class="paragraph">&nbsp;</div>
+<div class="paragraph"><span style="font-weight: bold;">Spring Awakening - Broadway Revival - 24 January 2016<br /></span><span style="text-decoration: underline;">Format</span>: mp3 (TRACKED) <br /><span style="text-decoration: underline;">Master</span>: sarcasticstagemanager <br /><span style="text-decoration: underline;">Cast</span>: Austin P. McKenzie [Melchior], Daniel N. Durant [Moritz], Alex Boniello [Voice of Moritz], Sandra Mae Frank [Wendla], Katie Boeck [Voice of Wendla], Krysta Rodriguez [Ilse], Treshelle Edmond [Martha], Kathryn Gallagher [Voice of Martha], Amelia Hensley [Thea], Lauren Luiz [Melitta/Voice of Thea], Ali Stroker [Anna], Alexandra Winter [Greta], Miles Barbee [Otto], Sean Grandillo [Voice of Otto], Alex Wyse [Georg], Andy Mientus [Hanschen], Joshua Castille [Ernst], Daniel David Stewart [Voice of Ernst], Alexandria Wailes [Adult Woman], Elizabeth Greene [Adult Women], Patrick Page [Adult Men], Russell Harvard [Adult Men] <br /><span style="text-decoration: underline;">Notes</span>: Closing night performance, includes closing speeches by Michael Arden and Steven Sater. Tracked by fillyourlifewithsound.</div>
+
+        <h2 id="london"><br><br>london</h2>
+
+<p><span style="font-weight: bold;">Spring Awakening - London - 18 August 2018 (Matinee)</span><br /><span style="text-decoration: underline;">Format</span>: m4a (UNTRACKED) [52.7 MB]<br /><span style="text-decoration: underline;">Master</span>: fleaswillbite<br /><span style="text-decoration: underline;">Cast</span>: Max Harwood [Melchior Gabor], Charlotte Coe [Wendla Bergmann], James Knudsen [Moritz Stiefel], Ginnie Thompson [Ilse Neumann], Sadie Hurst [Martha Bessell], Jamie Heward [Hanschen Rilow], James Dodd [Ernst Robel], Kingsley De Costa [Otto L&auml;mmermeier], Dafydd Lansley [Georg Zirschnitz], Elizabeth Rose [Anna], Merel van't Hooft [Thea Rilow], Bella Kane [Melitta Rilow / Voice of Thea], Lydia Tuffy [The Adult Women], Joseph Heron [The Adult Men], Daniel N'Guessan-Lopez, Effie Ogino, Eloise Littell, Grace Jenkins, Joe Saunders, Lorren Santo-Quinn</p>
+
+        <h2 id="rc"><br><br>15th anniversary reunion concert</h2>
+
+<div class="paragraph"><span style="font-weight: bold;"><span style="color: #a82e2e;">Spring Awakening - 15th Anniversary Reunion Concert - 15 November 2021 <span style="font-size: small;">(NFT except through master)</span></span></span><br /><span style="text-decoration: underline;">Format</span>: m4a (TRACKED and UNTRACKED) [757.89 MB]<br /><span style="text-decoration: underline;">Master</span>: Blackbird Fly<br /><span style="text-decoration: underline;">Cast</span>: Jonathan Groff [Melchior Gabor], Lea Michele [Wendla Bergmann], John Gallagher Jr [Moritz Stiefel], Lauren Pritchard [Ilse Neumann], Jonathan B. Wright [Hanschen Rilow], Gideon Glick [Ernst Robel], Brian Charles Johnson [Otto L&auml;mmermeier], Skylar Astin [Georg Zirschnitz], Phoebe Strole [Anna], Remy Zaken [Thea Rilow], Christine Estabrook [The Adult Women], Stephen Spinella [The Adult Men], Gerard Canonico [Ensemble], Krysta Rodriguez [Ensemble], Jennifer Damiano [Ensemble], Robert Hager [Ensemble]<br /><span style="text-decoration: underline;">Notes</span>: One night only 15th anniversary reunion benefit concert with the full original Broadway cast! Recorded from the orchestra. The audience was extremely energetic and generous with loud applause throughout. The person seated next to me laughs loudly on occasion and talks a bit during the press video. Includes pre-show apology speech, the press package played during intermission and post-show speech from Jonathan Groff (which gets a little muffled at times).</div>
+<div class="paragraph">&nbsp;</div>
+<div class="paragraph"><strong>Spring Awakening - 15th Anniversary Reunion Concert - 15 November 2021</strong><br /><span style="text-decoration: underline;">Format</span>: m4a (UNTRACKED) [63.45 MB]<br /><span style="text-decoration: underline;">Master</span>: BoqTheMunchkin<br /><span style="text-decoration: underline;">Cast</span>: Jonathan Groff [Melchior Gabor], Lea Michele [Wendla Bergmann], John Gallagher Jr [Moritz Stiefel], Lauren Pritchard [Ilse], Skylar Astin [Georg], Lilli Cooper [Martha], Brian Charles Johnson [Otto], Gideon Glick [Ernst], Jonathan B Wright [Hanschen], Christine Estabrook [Adult Women], Stephen Spinella [Adult Man]. Ensemble: Gerard Canonico, Jenn Damiano, Krysta Rodriguez, Robi Hager.<br /><span style="text-decoration: underline;">Notes</span>: Recorded from the front of the rear mezzanine and you get to hear me ranting about the absolute mess that was getting into the theatre. The audio is perfect and there was truly a magical and emotional feeling of reconnecting with this show and seeing people in it I never got to see. The second act opens with a video montage. Rules: No YouTube (!!!!!), No TikTok, no Tumblr, no Reddit, none of it. Please list as BoqTheMunchkin&rsquo;s Master.</div>
+<p><strong>Spring Awakening - 15th Anniversary Reunion Concert - 15 November 2021</strong><br />Format: m4a (UNTRACKED) [140.13 MB]<br /><span style="text-decoration: underline;">Master</span>: hi-im-joe<br /><span style="text-decoration: underline;">Cast</span>: Jonathan Groff, Lea Michele, John Gallagher, Jr., Skylar Astin, Lauren Pritchard, Gerard Canonico, Lilli Cooper, Jennifer Damiano, Christine Eastbrook, Gideon Glick, Robert Hager, Brian Johnson, Krysta Rodriguez, Stephen Spinella, Phoebe Strole, Jonny B. Wright, and Remy Zaken</p>
+
+        <h2 id="ower"><br><br>off-west end revival (almeida theatre)</h2>
+
+<div class="paragraph"><strong>Spring Awakening - Off-West End Revival - 11 December 2021</strong><br /><span style="text-decoration: underline;">Format</span>: m4a (TRACKED and UNTRACKED) [237.78 MB]<br /><span style="text-decoration: underline;">Master</span>: sitting-in-my-hotel<br /><span style="text-decoration: underline;">Cast</span>: Laurie Kynaston [Melchior], Amara Okereke [Wendla], Stuart Thompson [Moritz], Carly-Sophia Davies [Ilse], Bella Maclean [Martha], Nathan Armarkwei-Laryea [Hanschen], Kit Esuruoso [Otto], Joe Pitts [Georg], Asha Banks [Thea], Maia Tamrakar [Anna], Zheng Xi Yong [Ernst], Catherine Cusack [The Adult Women], Mark Lockyer [The Adult Men], Emily Ooi, Taylor Bradshaw<br /><span style="text-decoration: underline;">Notes</span>: Please mark as sitting-in-my-hotel&rsquo;s master. Tracked by Hester. This version had some different song arrangements and 'There Once Was a Pirate' instead of 'The Guilty Ones'. Unfortunately the man next to me can be picked up opening fizzy drinks/shuffling around/really heavily breathing and the lady in front of me goes 'pow!' at the end of 'Don't Do Sadness/Blue Wind'. Good audio otherwise. Anyway, stan Mortiz in a skirt. Not for sale. NFT except through master until 13/01/22.</div>
+<div class="paragraph">&nbsp;</div>
+<div class="paragraph"><strong>Spring Awakening - Off-West End Revival - 16 December 2021</strong><br /><span style="text-decoration: underline;">Format</span>: m4a (UNTRACKED) [60.78 MB] <br /><span style="text-decoration: underline;">Master</span>: Lasagna<br /><span style="text-decoration: underline;">Cast</span>: Laurie Kynaston [Melchior], Amara Okereke [Wendla], Stuart Thompson [Moritz], Carly-Sophia Davies [Ilse], Bella Maclean [Martha], Nathan Armarkwei-Laryea [Hanschen], Kit Esuruoso [Otto], Joe Pitts [Georg], Asha Banks [Thea], Maia Tamrakar [Anna], Zheng Xi Yong [Ernst], Catherine Cusack [The Adult Women], Mark Lockyer [The Adult Men], Emily Ooi, Taylor Bradshaw<br /><span style="text-decoration: underline;">Notes</span>: Clear third row audio of this amazing production!</div>
+<div class="paragraph">&nbsp;</div>
+<div class="paragraph"><strong>Spring Awakening - Off-West End Revival - 18 December 2021</strong><br /><span style="text-decoration: underline;">Format</span>: mp3 (UNTRACKED) [180.63 MB]<br /><span style="text-decoration: underline;">Master</span>: Batbootlegs<br /><span style="text-decoration: underline;">Cast</span>: Laurie Kynaston [Melchior], Amara Okereke [Wendla], Stuart Thompson [Moritz], Carly-Sophia Davies [Ilse], Bella Maclean [Martha], Nathan Armarkwei-Laryea [Hanschen], Kit Esuruoso [Otto], Joe Pitts [Georg], Asha Banks [Thea], Maia Tamrakar [Anna], Zheng Xi Yong [Ernst], Catherine Cusack [The Adult Women], Mark Lockyer [The Adult Men], Emily Ooi, Taylor Bradshaw<br /><span style="text-decoration: underline;">Notes</span>: There was a show stop towards the end of Act 1 as someone had fainted in the audience. The delay has been cut out.</div>
+<p><strong>Spring Awakening - Off-West End Revival - 4 January 2022</strong><br /><span style="text-decoration: underline;">Format</span>: mp3 (UNTRACKED) [302.72 MB]<br /><span style="text-decoration: underline;">Master</span>: mi2507<br /><span style="text-decoration: underline;">Cast</span>: Laurie Kynaston [Melchior], Amara Okereke [Wendla], Stuart Thompson [Moritz], Carly-Sophia Davies [Ilse], Bella Maclean [Martha], Nathan Armarkwei-Laryea [Hanschen], Kit Esuruoso [Otto], Joe Pitts [Georg], Asha Banks [Thea], Maia Tamrakar [Anna], Zheng Xi Yong [Ernst], Mali O'Donnell [The Adult Women u/s], Mark Lockyer [The Adult Men], Emily Ooi [Clara], Taylor Bradshaw [Frank]</p>
+
+        <h2 id="asakusa"><br><br>Asakusa Kyugeki (Japan)</h2>
+
+<p><strong>Spring Awakening - Asakusa Kyugeki (Japan) - 12 July 2022</strong><br /><span style="text-decoration: underline;">Format</span>: mp3 (TRACKED) [128.73 MB]<br /><span style="text-decoration: underline;">Master</span>: whereigowhenigothere<br /><span style="text-decoration: underline;">Cast</span>: Arata Ishikawa [Melchior Gabor], Sayaka Kurihara [Wendla Bergmann], Tsubasa Takizawa [Moritz Stiefel], Mebae Ninomiya [Ilse Neumann], Hiromi Narita [Hanschen Rilow], Mika Matoba [Martha Bessell], Yoshiki Kumano [Ernst Robel], Sakurako Koda [Anna], Shinichiro Kogure [Georg Zirschnitz], Sakurano Nakahara [Thea Rilow], Shiro Sei [Otto Lammermeier], Kouhei Morita [Adult Men], Fisuk Yun [Adult Women]<br /><span style="text-decoration: underline;">Notes</span>: First preview of the West cast! Includes speech by Arata Ishikawa. I simply must mention the fact that the people ship from DWSA was included in this production.</p>
+        </div>
+		</div>	
+        <html>
+<style>
+.collapsible {
+font-family: "Montserrat", sans-serif;
+line-height: normal;
+letter-spacing: normal;
+    background-color: #5d6bb2;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+}
+
+.active,
+.collapsible:hover {
+    background-color: #5d6bb2;
+}
+
+.collapsible:after {
+    content: '\002B';
+    color: white;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2212";
+}
+
+.content {
+    padding: 20 18px;
+max-height: 0;
+height: 400px;
+overflow-y: scroll;
+    transition: max-height 0.2s ease-out;
+    background-color: #9fa9d9;
+}
+
+</style>
+<div class="sidenav">
+<div class="content">
+<strong>
+<!-- Side navigation -->
+ <a href="#workshop">workshop</a>
+  <a href="#lcw">lincoln center workshop</a>
+  <a href="#ob">off-broadway</a>
+  <a href="#bway">broadway</a>
+  <a href="#1nt">first national tour</a>
+  <a href="#owe">off-west end</a>
+  <a href="#we">west end</a>
+  <a href="#jp">japan</a>
+  <a href="#2nt">second national tour</a>
+  <a href="#rt">rosenthal theatre</a>
+  <a href="#wallis">wallis annenberg</a>
+  <a href="#br">broadway revival</a>
+  <a href="#london">london</a>
+  <a href="#rc">reunion concert</a>
+  <a href="#ower">almeida</a>
+  <a href="#asakusa">asakusa (japan)</a>
+</strong>
+</div>
+        <button class="collapsible"><strong>open menu</strong></button>
+        </div>
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.previousElementSibling;
+        if (content.style.maxHeight) {
+            content.style.maxHeight = null;
+        } else {
+            content.style.maxHeight = content.scrollHeight + "px";
+        }
+    });
+}
+
+</script>
+</html>
+	</body>
+</html>
